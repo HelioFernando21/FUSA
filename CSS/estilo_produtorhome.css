@@ -1,0 +1,431 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image:url(../Design/bg_cinza_escuro.png);
+	background-repeat:repeat-x;
+	background-color:#4f4f4f;
+}
+
+a{
+	text-decoration:none;
+	color:#0d88cc;
+}
+
+p {
+	color:#000;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	margin-top:0px;
+}
+
+.p_menu {
+	padding-top:3px;
+	margin-left:10px;
+	font-family:"Century Gothic";
+	font-size:15px;
+	color:#FFF;
+}
+
+.p_name {
+	margin-top: 8px;
+	margin-left:5px;
+	color:#F7F7F7;
+	font-size:14px;
+	position:absolute;
+}
+
+.p_job {
+	margin-top:30px;
+	margin-left:5px;
+	color:#2E2E2E;
+	font-size:11px;
+}
+
+.p_title_solo {
+	font-family:"Century Gothic";
+	font-size: 24px;
+	color:#FFF;
+	margin-left:265px;
+}
+
+.p_title_bandas {
+	font-family:"Century Gothic";
+	font-size: 24px;
+	color:#FFF;
+	margin-left:100px;
+}
+
+.title_HM {
+	font-size:18px;
+	margin-left:110px;
+	padding-top:4px;
+	color:#2E2E2E;
+}
+
+.p_num1 {
+	margin-top:55px;
+	margin-left: 8px;
+	padding-bottom:30px;
+	color:#c0dceb;
+}
+
+.p_num {
+	margin-left: 8px;
+	margin-bottom:44px;
+	color:#c0dceb;
+}
+
+.p_num2 {
+	margin-left: 4px;
+	color:#c0dceb;
+}
+
+
+#principal {
+	width: 995px;
+	height: 768px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#barra {
+	width: 995px;
+	height: 67px;
+	background-image:url(../Design/lines_menor.png);
+	background-repeat:no-repeat;
+}
+
+#Fusa_home {
+	width: 125px;
+	height: 50px;
+	background-image:url(../Design/fusa.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin-top: 7px;
+}
+
+#search_pessoas_input {
+	width: 200px;
+}
+
+#go_search {
+	width:22px;
+	height:22px;
+	margin-left:-5px;
+	background-image:url(../Design/go_search2.png);
+	background-repeat:no-repeat;
+	background-color:#F0F0F0;
+	border-color:#F0F0F0;
+}
+
+#procurar_users {
+	width: 241px;
+	height: 25px;
+	margin-left:70px;
+	margin-top: 22px;
+	float:left;
+}
+
+#infos_user {
+	width: 400px;
+	height: 60px;
+	float:left;
+	margin-left:150px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-align:left;
+}
+
+#logar {
+	width: auto;
+	height:60px;
+	float:right;
+	text-align:right;
+}
+
+.p_nome {
+	color:#000;
+	float:left;
+	margin-right:10px;
+	margin-top:28px;
+}
+
+.p_foto {
+	border:1px solid #666;
+	float:left;
+	margin-right:10px;
+	margin-top:10px;
+}
+
+.p_sair {
+	color:#0d88cc;
+	float:left;
+	margin-top:28px;
+}
+
+#email {
+	width:120px;
+}
+
+#senha {
+	width:120px;
+}
+
+#texto_auxiliar {
+	width: 410px;
+	height:20px;
+}
+
+#bt_entrar {
+	background-image:url(../Design/bt_entrar.png);
+	font-family:Verdana, Geneva, sans-serif;
+	color:#FFF;
+}
+
+#conteudo {
+	width: 1024px;
+	height: 633px;
+	position:absolute;
+}
+
+
+#coluna1 {
+	width: 160px;
+	height: 400px;
+	float:left;
+	margin-top: 20px;
+
+}
+
+#fotoprodutor {
+	width: 150px;
+	height: 150px;
+
+	border:1px solid #CCC;
+}
+
+#btns {
+	width:150px;
+	height: 100px;
+	margin-top:20px;
+}
+
+#caixa1 {
+	width:150px;
+	height: 30px;
+	background-color:#0d88cc;
+	margin-bottom:5px;
+}
+
+#caixa2 {
+	width:150px;
+	height: 30px;
+	background-color:#8bacbe;
+	margin-bottom:5px;
+}
+
+#caixa3 {
+	width:150px;
+	height: 30px;
+	background-color:#8bacbe;
+}
+
+#search {
+	width: 150px;
+	height: 25px;
+	margin-top: 20px;
+}
+
+#icone_video {
+	width: 22px;
+	height: 23px;
+	background-image:url(../Design/icone_video.png);
+	background-repeat:no-repeat;
+	float:left;
+}
+
+#search_video {
+	width: 100px;	
+	position:absolute;
+	margin-top:0px;
+}
+
+#btn_video {
+	width:22px;
+	height:22px;
+	background-image:url(../Design/go_search.png);
+	background-size:contain;
+	position:absolute;
+	margin-left:102px;
+	margin-top:1px;
+}
+
+#coluna2 {
+	width: 820px;
+	height: 654px;
+	float:left;
+	margin-left: 10px;
+	margin-top: 20px;
+	background-image:url(../Design/bg_produtor.png);
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; 
+}
+
+#solo {
+	width: 535px;
+	height:653px;
+	float:left;
+	background-image:url(../Design/bg_produtor.png);
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; 
+}
+
+#banda {
+	width: 265px;
+	height:655px;
+	float:left;
+	margin-left:20px;
+	background-image:url(../Design/bg_produtor.png);
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; 
+}
+
+#title_solo {
+	width: 535px;
+	height: 40px;
+	background-image:url(../Design/line_produtor1.png);
+	background-size:contain;
+	background-position:bottom;
+	background-repeat:no-repeat;
+}
+
+#homens {
+	width:267px;
+	height:620px;
+	float:left;
+}
+
+#num_homens {
+	width:30px;
+	height: 614px;
+	background-image:url(../Design/bg_produtor.png);
+	background-size:contain;
+	position:absolute;
+	border-bottom-left-radius:15px;
+}
+
+#title_homens {
+	width:267px;
+	height:33px;
+	background-image:url(../Design/bg_produtor.png);
+	background-size:contain;
+}
+
+#raking_homens {
+	width:247px;
+	height:582px;
+	margin-left:30px;
+}
+
+#h {
+	width: 247px;
+	height:58px;
+	background-image:url(../Design/quebra_linha.png);
+	background-size:contain;
+	background-position:bottom;
+	background-repeat:no-repeat;
+}
+
+#c1 {
+	width:125px;
+	height:58px;
+	float:left;
+}
+
+#c2 {
+	width:88px;
+	height:52px;
+	background-image:url(../ImagensTeste/videoprodutor.png);
+	margin-top:2px;
+	margin-left:2px;
+	float:left;
+}
+
+#c3 {
+	width:16px;
+	height:10px;
+	background-image:url(../Design/mens_prod.png);
+	background-size:contain;
+	margin-top:20px;
+	margin-left:6px;
+	float:left;
+}
+
+#mulheres {
+	width:267px;
+	height:620px;
+	float:left;
+}
+
+#num_mulheres {
+	width:30px;
+	height: 614px;
+	background-image:url(../Design/bg_produtor.png);
+	position:absolute;
+}
+
+#title_mulheres {
+	width:267px;
+	height:33px;
+	background-image:url(../Design/bg_produtor.png);
+	background-size:contain;
+}
+
+#raking_mulheres {
+	width:247px;
+	height:582px;
+	margin-left:30px;
+}
+
+#title_banda {
+	width: 265px;
+	height: 40px;
+	background-image:url(../Design/lines_produtor2.png);
+	background-position:bottom;
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+
+#bandas {
+	width: 274px;
+	height:614px;
+}
+
+#num_bandas {
+	width:30px;
+	height: 614px;
+	background-image:url(../Design/bg_produtor.png);
+	position:absolute;
+	background-size:contain;
+	border-bottom-left-radius:15px;
+}
+
+#title_bandas {
+	width:265px;
+	height:33px;
+	background-image:url(../Design/bg_produtor.png);
+	background-size:contain;
+}
+
+#raking_bandas {
+	width:235px;
+	height:582px;
+	margin-left:30px;
+}

@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+
+.p_name_big {
+	font-size: 24px;
+	font-family:"Century Gothic";
+}
+
+
+#principal {
+	width: 995px;
+	height: 550px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#barra {
+	width: 995px;
+	height: 67px;
+	background-image:url(../Design/lines_menor.png);
+	background-repeat:no-repeat;
+}
+
+.p_nome {
+	color:#000;
+	float:left;
+	margin-right:10px;
+	margin-top:28px;
+}
+
+.p_foto {
+	border:1px solid #666;
+	float:left;
+	margin-right:10px;
+	margin-top:10px;
+}
+
+.p_sair {
+	color:#0d88cc;
+	float:left;
+	margin-top:28px;
+}
+
+#conteudo {
+	width: 995px;
+	height: 450px;
+	background-image:url(../Design/bg_linhas_conteudo.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	margin-top:20px;
+}
+
+#coluna1{
+	float:left;
+	height: 300px;
+	margin-left: 10px;
+}
+
+
+#foto_user3 {
+	width: 195px;
+	height: 195px;
+	border:1px solid #666;
+	float:left;
+}
+
+#procurar_MV {
+	width: 195px;
+	height: 60px;
+	position:absolute;
+	margin-top: 10px;
+}
+
+
+#icone_video {
+	width: 22px;
+	height: 23px;
+	background-image:url(../Design/icone_video.png);
+	background-repeat:no-repeat;
+	float:left;
+}
+
+#linha_video {
+	width:195px;
+	height: 23px;
+}
+
+#input_video {
+	float:left;
+}
+
+#search_video {
+	width: 150px;
+	height: 17px;
+	margin-top:-1px;
+	position:absolute;
+}
+
+#btn_video {
+	width:23px;
+	height:23px;
+	background-image:url(../Design/go_search.png);
+	background-size:contain;
+	position:absolute;
+	margin-left:150px;
+	margin-top:-1px;
+}
+
+#coluna2 {
+	width: 770px;
+	height: 450px;
+	float:left;
+	margin-left: 15px;
+}
+
+#infos_user2 {
+	width: 770px;
+	height: 80px;
+}
+
+#nome_user {
+	width: auto;
+	height:35px;
+	float:left;
+	margin-right:15px;
+}
+
+#estilos_user {
+	width: 300px;
+	height:35px;
+	margin-top: 45px;
+	position:absolute;
+}
+
+#edit_user {
+	width: 18px;
+	height: 29px;
+	background-image:url(../Design/editar.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin-left: auto;
+	margin-top: 7px;
+}
+
+
+#videos {
+	width: 760px;
+	height: 360px;
+	background-image:url(../Design/linha_roll.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	overflow:auto;
+	margin-top:10px;
+}
+
+#video {
+	width: 238px;
+	height: 170px;
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+#btn_play {
+	width:83px;
+	height:83px;
+	background-repeat:no-repeat;
+	background-image:url(../Design/play_video.png);
+	margin-left:80px;	
+	position:relative;
+	margin-top:25px;
+}
+
+#btn_play:hover {	
+	background-image:url(../Design/play_video_hover.png);
+}
+
+
+#title_video {
+	width: 238px;
+	height: 22px;
+}
+
+#imagem {
+	width:238px;
+	height:170px;
+	float:left;
+}
+
+
+

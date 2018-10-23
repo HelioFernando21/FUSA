@@ -1,0 +1,523 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image:url(../Design/bg_user.png);
+	background-repeat:repeat-x;
+	background-color:#1f1f1f;
+}
+
+a{
+	text-decoration:none;
+	color:#0d88cc;
+}
+
+.p_amigos {
+	margin-top:8px;
+	font-size: 16px;
+	position:absolute;
+	margin-left:0px;
+	cursor:pointer;
+}
+
+h1 {
+	color:#FFF;
+	margin-top:0px;
+	font-family:"Century Gothic";
+}
+
+.form_a {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	float:left;
+	color:#FFF;
+}
+
+.form_a0 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	float:left;
+	color:#FFF;
+	padding-bottom:10px;
+	margin-left:32px;
+}
+
+
+.form_a2 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	float:left;
+	color:#FFF;
+	margin-left:34px;
+}
+
+.form_a3 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	float:left;
+	color:#FFF;
+	margin-left:36px;
+}
+
+.form_a4 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	float:left;
+	color:#FFF;
+	margin-left:10px;
+}
+
+.form_a5 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	float:left;
+	color:#FFF;
+	margin-left:103px;
+}
+
+.form_a6 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	float:left;
+	color:#FFF;
+	margin-left:75px;
+}
+
+#txtTitulo {
+	margin-left:10px;
+}
+
+#cmbEstilo {
+	margin-left:10px;
+}
+
+#arq1 {
+	width:500px;
+	height:40px;
+	margin-left:38px;
+}
+
+#arq2 {
+	width:470px;
+	height:50px;
+	margin-left:14px;
+}
+
+#arq22 {
+	width:470px;
+	height:50px;
+}
+
+#arq222 {
+	width:470px;
+	height:50px;
+}
+
+#arq3 {
+	width:470px;
+	height:40px;
+}
+
+#arq4 {
+	width:590px;
+	height:100px;
+	margin-left:10px;
+}
+
+.margin10 {
+	margin-left:10px;
+}
+
+#txtTexto {
+	width:290px;
+	margin-left:10px;	
+}
+
+
+#txtDescricao {
+	width:400px;
+	height:70px;
+	margin-left:10px;
+}
+
+#agenda_descricao {
+	width:400px;
+	height:70px;
+	margin-left:10px;
+}
+
+#digitar_videos {
+	margin-top:50px;
+	width:580px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#digitar_referencia {
+	margin-top:50px;
+	width:470px;
+	margin-left:120px;
+}
+
+#digitar_eventos {
+	width:570px;
+	height:250px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#carregar {
+	background-image:url(../Design/back_enviar_lyric.png);
+	color:#FFF;
+	margin-left:165px;
+}
+
+#btn_agendar {
+	background-image:url(../Design/back_enviar_lyric.png);
+	color:#FFF;
+	margin-left:165px;
+	margin-top:-15px;
+}
+
+p {
+	color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 0px;
+}
+
+#Fusa_home {
+	width: 125px;
+	height: 50px;
+	background-image:url(../Design/fusa.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin-top: 7px;
+}
+
+#search_pessoas_input {
+	width: 200px;
+}
+
+#go_search {
+	width:22px;
+	height:22px;
+	margin-left:-5px;
+	background-image:url(../Design/go_search2.png);
+	background-repeat:no-repeat;
+	background-color:#F0F0F0;
+	border-color:#F0F0F0;
+}
+
+#procurar_users {
+	width: 241px;
+	height: 25px;
+	margin-left:70px;
+	margin-top: 22px;
+	float:left;
+}
+
+#infos_user {
+	width: 400px;
+	height: 60px;
+	float:left;
+	margin-left:150px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-align:left;
+}
+
+#email {
+	width:120px;
+}
+
+#senha {
+	width:120px;
+}
+
+#texto_auxiliar {
+	width: 410px;
+	height:20px;
+}
+
+#bt_entrar {
+	background-image:url(../Design/bt_entrar.png);
+	font-family:Verdana, Geneva, sans-serif;
+	color:#FFF;
+}
+
+.p_amigos {
+	margin-top:8px;
+	font-size: 16px;
+	position:absolute;
+	cursor:pointer;
+}
+
+.p_link_ref {
+	font-family:"Century Gothic";
+	font-size:16px;
+	margin-top: 3px;
+	margin-left: 30px;
+	color:#FFF;
+}
+
+.p_link {
+	font-family:"Century Gothic";
+	font-size:16px;
+	margin-top: 3px;
+	margin-left: 55px;
+	color:#FFF;
+}
+
+.p_link_esq {
+	font-family:"Century Gothic";
+	font-size:16px;
+	margin-top: 3px;
+	margin-left: 50px;
+	color:#FFF;
+}
+
+.p_link_dir {
+	font-family:"Century Gothic";
+	font-size:16px;
+	margin-top: 3px;
+	margin-left: 42px;
+	color:#FFF;
+}
+
+#foto_user {
+	width: 180px;
+	height: 410px;
+	border:1px solid #666;
+}
+
+
+#foto_user2 {
+	width: 195px;
+	height: 184px;
+	background-image:url(../ImagensTeste/homebanda.png);
+	border:1px solid #666;
+}
+
+#foto_user3 {
+	width: 995px;
+	height: 265px;
+	background-image:url(../ImagensTeste/homebanda.png);
+	border:1px solid #666;
+}
+
+#acesso {	
+	overflow-x:hidden;
+	overflow-y:hidden;
+	width: 40px;
+	height: 40px;
+	
+	background-repeat:no-repeat;
+	border:1px solid #666;
+	float:left;
+	margin-right:10px;
+	margin-top:10px;
+}
+
+#acesso2 {	
+	overflow-x:hidden;
+	overflow-y:hidden;
+	width: 40px;
+	height: 25px;
+	background-size:40px;
+	background-repeat:no-repeat;
+	border:1px solid #666;
+	float:left;
+	margin-right:10px;
+	margin-top:20px;
+}
+
+#logar {
+	width: auto;
+	height:60px;
+	float:right;
+	text-align:right;
+}
+
+.a_sair {
+	color:#0d88cc;
+	float:left;
+	margin-top:28px;
+}
+
+
+.p_nome {
+	color:#000;
+	float:left;
+	margin-right:10px;
+	margin-top:28px;
+}
+
+#amigos_user {
+	width: 183px;
+	height: 100px;
+	margin-top: 35px;
+	position:absolute;
+}
+
+#amigo1 {
+	width: 40px;
+	height: 40px;
+	background-color:#b8b8b8;
+	border:1px solid #666;
+	float:left;
+	margin-bottom:auto;
+	position:relative;
+	background-size:40px;
+	background-repeat:no-repeat;
+}
+
+#amigo2 {
+	width: 40px;
+	height: 40px;
+	background-color:#b8b8b8;
+	border:1px solid #666;
+	float:left;
+	position:relative;
+	background-size:40px;
+	background-repeat:no-repeat;
+	margin-left:3px;	
+
+}
+
+#amigo3 {
+	width: 40px;
+	height: 40px;
+	background-color:#b8b8b8;
+	border:1px solid #666;
+	float:left;
+	position:relative;
+	background-size:40px;
+	background-repeat:no-repeat;
+	margin-left:3px;	
+}
+
+#amigo4 {
+	width: 40px;
+	height: 40px;
+	background-color:#b8b8b8;
+	border:1px solid #666;
+	float:left;
+	position:relative;
+	background-size:40px;
+	background-repeat:no-repeat;
+	margin-left:3px;	
+}
+
+
+#amigo5 {
+	width: 40px;
+	height: 40px;
+	background-color:#b8b8b8;
+	border:1px solid #666;
+	float:left;
+	margin-top:4px;
+	background-size:40px;
+	background-repeat:no-repeat;
+}
+
+#amigo6 {
+	width: 40px;
+	height: 40px;
+	background-color:#b8b8b8;
+	border:1px solid #666;
+	float:left;
+	position:relative;
+	margin-top:4px;
+	margin-left:3px;	
+	background-size:40px;
+	background-repeat:no-repeat;
+}
+
+#amigo7 {
+	width: 40px;
+	height: 40px;
+	background-color:#b8b8b8;
+	border:1px solid #666;
+	float:left;
+	position:relative;
+	margin-top:4px;
+	margin-left:3px;	
+	background-size:40px;
+	background-repeat:no-repeat;
+}
+
+#amigo8 {
+	width: 40px;
+	height: 40px;
+	background-color:#b8b8b8;
+	border:1px solid #666;
+	float:left;
+	position:relative;
+	margin-top:4px;
+	margin-left:3px;	
+	background-size:40px;
+	background-repeat:no-repeat;
+
+}
+
+#rodape {
+	width:995px;
+	height:25px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(../Design/linha_rodape.png);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+
+.float {
+	float:left;
+	margin-right:15px;
+	margin-top:06px;
+}
+
+.space {
+	margin-left:340px;
+	color:#0d88cc;
+}
+
+.color {
+	color:#0d88cc;
+}
+
+
+/* ////////////////////////////////////////////////////////////////// */
+
+#rodape3 {
+	width:995px;
+	height:25px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(../Design/linha_rodape.png);
+	background-repeat:no-repeat;
+	background-position:top;
+	bottom:0px;
+	position:relative;
+	
+	margin-top: 30px; /* negative value of footer height */
+	clear:both
+}
+
+.float3 {
+	float:left;
+	margin-right:15px;
+	margin-top:06px;
+}
+
+.space3 {
+	margin-left:340px;
+	color:#0d88cc;
+}
+
+.color3 {
+	color:#0d88cc;
+}
+

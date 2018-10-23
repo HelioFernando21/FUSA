@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image:url(../Design/bg_cinza.png);
+	background-repeat:repeat-x;
+	background-color:#d4d4d4;
+}
+
+p {
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+a {
+	text-decoration:none;
+}
+
+.pCaixaLogin {
+	margin-left: 500px;
+}
+
+.pBandaLink {
+	color:#FFF;
+	margin-left: 200px;
+	font-size:24px;
+	margin-top: 65px;
+}
+
+.pArtistaLink {
+	color:#FFF;
+	margin-left: 245px;
+	font-size:24px;
+	margin-top: 3px;
+}
+
+
+.aFORGET {
+	text-decoration:none;
+	font-size:11px;
+	margin-left: 295px;
+	color:#999;
+}
+
+#pCadastro {
+	font-size:13px;
+	margin-left:46px;
+}
+
+#pCadastro_again {
+	font-size:12px;
+	margin-left:6px;
+	
+}
+
+#pCadastro_nome {
+	font-size:12px;
+	margin-left: 51px;
+}
+
+#pCadastro_sobrenome {
+	font-size:12px;
+	margin-left: 16px;
+}
+
+#pCadastro_instrumento {
+	font-size:12px;
+	margin-left: 12px;
+}
+
+#pCadastro_email {
+	font-size:12px;
+	margin-left: 51px;
+}
+
+#pCadastro_senha {
+	font-size:12px;
+	margin-left: 50px;
+}
+
+#pCadastro_senha_again {
+	font-size:12px;
+	margin-left: 7px;
+}
+
+#cadastro_artista {
+	background-image:url(../Design/bt_cadastro.png);
+	color:#FFF;
+	font-size:16px;
+	font-weight:800;
+	width:131px;
+	height:29px;
+	margin-left:70px;
+	margin-top: 10px;
+}
+
+#cadastro_banda {
+	background-image:url(../Design/bt_cadastro.png);
+	color:#FFF;
+	font-size:16px;
+	font-weight:800;
+	width:131px;
+	height:29px;
+	margin-left:70px;
+	margin-top: 10px;
+}
+
+
+#bt_entrar {
+	background-image:url(../Design/bt_entrar.png);
+	font-family:Verdana, Geneva, sans-serif;
+	color:#FFF;
+}
+
+#principal {
+	width: 1024px;
+	height: 700px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#login {
+	width: 1024px;
+	height: 67px;
+	position:absolute;
+	background-image:url(../Design/lines_menor.png);
+	background-repeat:no-repeat;
+	
+}
+
+#conteudo {
+	width: 1024px;
+	height:633px;
+	position:absolute;
+	margin-top:67px;
+}
+
+
+#esquerda {
+	width: 493px;
+	height: 100px;
+	background-image:url(../Design/faixa_left.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	margin-top: 200px;
+	z-index:2;
+}
+
+#HIDE_Banda {
+	width: 264px;
+	height: 230px;
+	background-image:url(../Design/transparente.png);
+	position:absolute;
+	top: 300px;
+	margin-left: 82px;
+	display:none;
+	z-index: 7;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+}
+
+#HIDE_Artista {
+	width: 270px;
+	height: 300px;
+	background-image:url(../Design/transparente.png);
+	position:absolute;
+	top: 300px;
+	margin-left: 640px;
+	z-index:5;
+	display:none;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+}
+
+
+#direita {
+	width: 572px;
+	height: 120px;
+	background-image:url(../Design/faixa_right.png);
+	background-repeat:no-repeat;
+	margin-left: 455px;
+	margin-top: 261px;
+	position:absolute;
+	z-index:3;
+
+}
+
+#linhas {
+	width:528px;
+	height:550px;
+	margin-left:218px;
+	margin-right:auto;
+	margin-top: 20px;	
+	background-image:url(../Design/linhas.png);	
+	float:left;
+	z-index:1;
+	
+}
+
+#logo {
+	width: 335px;
+	height: 335px;
+	background-image:url(../Design/logo.png);
+	position:absolute;
+	z-index:4;
+	margin-top:130px;
+	margin-left:325px;
+	
+}

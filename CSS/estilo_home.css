@@ -1,0 +1,560 @@
+@charset "utf-8";
+/* CSS Document */
+
+.p_up {
+	color:#000;
+}
+
+h1 {
+	color:#FFF;
+	margin-top:0px;
+	font-family:"Century Gothic";
+}
+
+.p_pi {
+	font-size: 17px;
+	font-family:"Century Gothic";
+	font-weight:700;
+	margin-top:20px;
+	margin-left:35px;
+}
+
+.p_EC {
+	margin-left:34px;
+}
+
+.p_E {
+	margin-left:44px;
+}
+
+.p_frase {
+	font-size:11px;
+}
+
+.p_title {
+	font-size: 14px;
+	font-family:"Century Gothic";
+	margin-top:10px;
+	margin-left:10px;
+}
+
+.p_notifica {
+	font-size:11px;
+	display:block;
+	margin-left:10px;
+	float:left;
+}
+
+
+#principal {
+	width: 995px;
+	height: 610px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#barra {
+	width: 995px;
+	height: 67px;
+	background-image:url(../Design/lines_menor.png);
+	background-repeat:no-repeat;
+}
+
+#conteudo {
+	width: 995px;
+	height: 546px;
+	position:absolute;
+	background-image:url(../Design/bg_linhas_conteudo.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	margin-top:67px;
+}
+
+#coluna1{
+	float:left;
+	margin-top: 20px;
+}
+
+#procurar_MV {
+	width: 180px;
+	height: 30px;
+	margin-top:12px;
+}
+
+#coluna2 {
+	width: 465px;
+	height: 475px;
+	float:left;
+	margin-left:15px;
+	margin-top: 20px;
+	background-image:url(../Design/linha_roll.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	overflow:auto;
+}
+
+#coluna3 {
+	width: 310px;
+	height: 410px;
+	float:left;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+
+#numbers {
+	width:189px;
+	height:14px;
+	background-image:url(../Design/numbers.png);
+	position:absolute;
+	margin-left:14px;
+	margin-top:-6px;
+}
+
+.numb {
+	width:30px;
+	height:14px;
+	float:left;
+	text-align:center;
+}
+
+#number1 {
+	margin-right:22px;
+	margin-left:4px;
+}
+
+#number2 {
+	margin-right:22px;
+}
+
+#number3 {
+	margin-right:21px;
+}
+
+.size_number {
+	font-size:11px;
+	color:#FFF;
+}
+
+#BTS_Box {
+	width: 310px;
+	height: 65px;
+	position:absolute;
+	background-color:#434343;
+}
+
+#bt1 {
+	width: 44px;
+	height: 44px;
+	border:1px solid #979696;
+	float:left;
+	margin-top:8px;
+	background-image:url(../Design/new_notific.png);
+}
+
+#bt2 {
+	width: 44px;
+	height: 44px;
+	border:1px solid #979696;
+	float:left;
+	margin-left:6px;
+	margin-top:8px;
+	background-image:url(../Design/invite_produtor.png);
+}
+
+#bt3 {
+	width: 44px;
+	height: 44px;
+	border:1px solid #979696;
+	float:left;
+	margin-left:6px;
+	margin-top:8px;
+	background-image:url(../Design/invite_band.png);
+}
+
+#bt4 {
+	width: 44px;
+	height: 44px;
+	border:1px solid #979696;
+	float:left;
+	margin-left:6px;
+	margin-top:8px;
+	background-color:#dfdfdf;
+	background-image:url(../Design/adicionar_icon.png);
+}
+
+#bt5 {
+	width: 44px;
+	height: 44px;
+	border:1px solid #979696;
+	float:left;
+	margin-left:6px;
+	margin-top:8px;
+	background-image:url(../Design/search_members.png);
+}
+
+#bt6 {
+	width: 44px;
+	height: 44px;
+	border:1px solid #979696;
+	float:left;
+	margin-left:6px;
+	margin-top:8px;
+	background-image:url(../Design/editar_config.png);
+}
+
+#mudar_status {
+	width:80px;
+	margin-left:110px;
+	margin-top:10px;
+	background-image:url(../Design/back_enviar_lyric.png);
+	color:#FFF;
+	position:absolute;
+}
+
+#barrinha_azul {
+	width: 310px;
+	height: 6px;
+	background-color:#118dd2;
+	margin-top: 59px;
+	border-radius: 6px;
+}
+
+#troca1 {
+	width: 310px;
+	height: 200px;
+	overflow:auto;
+	background-image:url(../Design/troca.png);
+	top: 85px;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	position:absolute;
+	display:none;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#troca2 {
+	width: 310px;
+	height: 200px;
+	overflow:auto;
+	background-image:url(../Design/troca.png);
+	top: 85px;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	display:none;
+	position:absolute;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#troca3 {
+	width: 310px;
+	height: 200px;
+	overflow:auto;
+	background-image:url(../Design/troca.png);
+	top: 85px;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	display:none;
+	position:absolute;
+	color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+
+#troca4 {
+	width: 310px;
+	height: 200px;
+	overflow:auto;
+	background-image:url(../Design/troca.png);
+	top: 85px;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	display:none;
+	position:absolute;
+	color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+
+#troca5 {
+	width: 310px;
+	height: 240px;
+	background-image:url(../Design/troca.png);
+	top: 85px;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	display:none;
+	position:absolute;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#troca6 {
+	width: 310px;
+	height: 120px;
+	background-image:url(../Design/troca.png);
+	top: 85px;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	display:none;
+	position:absolute;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#coluna4 {
+	width: 180px;
+	height: 60px;
+	position:absolute;
+	margin-top: 450px;
+	margin-left: 20px;
+}
+
+#icone_video {
+	width: 22px;
+	height: 23px;
+	background-image:url(../Design/icone_video.png);
+	background-repeat:no-repeat;
+	float:left;
+}
+
+#linha_video {
+	width:180px;
+	height: 23px;
+}
+
+#input_video {
+	float:left;
+}
+
+#search_video {
+	width: 130px;
+	height: 17px;
+	margin-top:-1px;
+	position:absolute;
+}
+
+#btn_video {
+	width:23px;
+	height:23px;
+	background-image:url(../Design/go_search.png);
+	background-size:contain;
+	position:absolute;
+	margin-left:135px;
+	margin-top:-1px;
+}
+
+#form_search {
+	margin-top:20px;
+	text-align:end;
+	width:300px;
+	height:150px;
+}
+
+select {
+ 	width: 200px;
+	font-size: 12px;
+}
+
+#btn_procurar {
+	width:80px;
+	margin-left:110px;
+	background-image:url(../Design/back_enviar_lyric.png);
+	color:#FFF;
+	position:absolute;
+}
+
+#notifica_produtor {
+	width:290px;
+	height:80px;
+	background-image:url(../Design/linha_caixinha.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+}
+
+#notifica_banda {
+	width:290px;
+	height:100px;
+	background-image:url(../Design/linha_caixinha.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+}
+
+#notifica_adicionar {
+	width:290px;
+	height:100px;
+	background-image:url(../Design/linha_caixinha.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+}
+
+#c1 {
+	width: 40px;
+	height: 40px;
+	border:1px solid #666;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+	background-size:40px;
+	background-repeat:no-repeat;
+}
+
+#c111 {
+	width: 40px;
+	height: 40px;
+	border:1px solid #666;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+	background-size:60px;
+	background-repeat:no-repeat;
+}
+
+#c2 {
+	width: 180px;
+	height: 80px;
+	float:left;
+	margin-top:10px;
+	margin-left:8px;
+}
+
+#c3 {
+	width: 16px;
+	height: 10px;
+	background-image:url(../Design/mens_prod.png);
+	float:left;
+	margin-left:4px;
+	margin-top:35px;
+}
+
+#c4 {
+	width: 8px;
+	height: 8px;
+	background-image:url(../Design/delete.png);
+	float:left;
+	margin-top:15px;
+}
+
+#nome_produtora {
+	width: 180px;
+	height:18px;
+	font-weight:600;
+}
+
+#nome_banda {
+	width: 180px;
+	height:18px;
+	font-weight:600;
+}
+
+#nome_usuario {
+	width: 180px;
+	height:18px;
+	font-weight:600;
+}
+
+#corpo_mensagem {
+	width: 180px;
+	height:20px;
+	overflow:hidden;
+}
+
+#escolher_op {
+	width: 220px;
+	height:65px;
+	overflow:hidden;	
+}
+
+#Aceitar {
+	margin-left:40px;
+	float:left;
+	background-image:url(../Design/back_enviar_lyric.png);
+	color:#FFF;
+}
+
+#Recusar {
+	margin-top:-5px;
+	display:block;
+	float:left;
+	background-image:url(../Design/back_enviar_lyric.png);
+	color:#FFF;
+}
+
+#c33 {
+	width: 16px;
+	height: 10px;
+	background-image:url(../Design/mens_prod.png);
+	float:left;
+	margin-left:10px;
+}
+
+#notifica_geral {
+	width:290px;
+	height:25px;
+	background-image:url(../Design/linha_caixinha.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	margin-bottom:5px;
+}
+
+#cc4 {
+	width: 8px;
+	height: 8px;
+	background-image:url(../Design/delete.png);
+	float:left;
+	margin-left: 20px;
+}
+
+
+#carregando{
+	
+	
+	width:150px;
+	height:150px;
+	margin-top:-200px;
+	margin-left:-200px;
+	position:relative;
+	top:300px;
+	left:330px;
+	
+	
+}
+#carregando2{
+	
+	
+	width:150px;
+	height:150px;
+	margin-top:-200px;
+	margin-left:-200px;
+	position:relative;
+	top:300px;
+	left:330px;
+	
+	
+}
+#carregando3{
+	
+	
+	width:150px;
+	height:150px;
+	margin-top:-200px;
+	margin-left:-200px;
+	position:relative;
+	top:300px;
+	left:330px;
+	
+	
+}
+#carregando4{
+	
+	
+	width:150px;
+	height:150px;
+	margin-top:-200px;
+	margin-left:-200px;
+	position:relative;
+	top:300px;
+	left:330px;
+	
+	
+}

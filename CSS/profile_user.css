@@ -1,0 +1,310 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image:url(../Design/bg_branco.png);
+	background-repeat:repeat-x;
+	background-color:#efefef;
+}
+
+#principal {
+	width: 1024px;
+	height: 660px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+#barra {
+	width: 1024px;
+	height: 67px;
+	
+	background-image:url(../Design/lines_menor.png);
+	
+	background-repeat:no-repeat;
+}
+
+
+
+#search_pessoas_input {
+	margin-left: 222px;
+	width: 200px;
+	margin-top: 29px;
+}
+
+#conteudo {
+	width: 1024px;
+	height: 593px;
+	position:absolute;
+	background-image:url(../Design/bg_conteudo_linhas.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+#foto_user {
+	
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+h3 {
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+
+#amigos_user {
+	width: 180px;
+	height: 100px;
+	margin-left:20px;
+}
+
+#amigo1 {
+	
+	
+	display: inline-block;
+	background-color:#b8b8b8;
+	margin-left: 3px;
+}
+
+#amigo2 {
+	
+	background-color:#b8b8b8;
+	display: inline-block;
+}
+
+#amigo3 {
+
+	background-color:#b8b8b8;
+	display: inline-block;
+}
+
+#amigo4 {
+	
+	background-color:#b8b8b8;
+	display: inline-block;
+}
+
+
+#amigo5 {
+	
+	background-color:#b8b8b8;
+	display: inline-block;
+	margin-left: 3px;
+}
+
+#amigo6 {
+	
+	background-color:#b8b8b8;
+	display: inline-block;
+}
+
+#amigo7 {
+	
+	background-color:#b8b8b8;
+	display: inline-block;
+}
+
+#amigo8 {
+	
+	background-color:#b8b8b8;
+	display: inline-block;
+}
+
+#infos_user {
+	width: 785px;
+	height: 130px;
+	float:left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#inside{
+	float:left;
+}
+
+#caixas_refresh {
+	width: 750px;
+	height: 355px;	
+	margin-top: 170px;
+	margin-left: 236px;
+}
+
+#nome_user {
+	min-width: 223px;
+	max-width: 280px;
+	height:38px;
+	background-color:#b8b8b8;
+
+}
+
+h1 {
+	margin-top: 0px;
+}
+
+#job_user {
+	width: 223px;
+	height: 50px;
+	background-color:#b8b8b8;
+}
+
+#gravadora_user {
+	width: 223px;
+	height: 35px;
+	background-color:#b8b8b8;
+}
+
+#add_user {
+	width: 34px;
+	height: 93px;
+	background-image:url(../Design/add.png);
+	margin-left: 300px;
+	margin-top: -122px;
+	position:absolute;
+}
+
+#descri_user {
+	width: 430px;
+	height: 100px;
+	background-color:#b8b8b8;
+	margin-left: 345px;
+	margin-top: -122px;
+	position:absolute;
+}
+
+#player_user {
+	width: 320px;
+	height: 217px;
+	background-image:url(../Design/degrade_box_maior.png);
+	border:1px solid #b2b2b2;
+	position:absolute;
+	margin-left: 210px;
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+}
+	
+	
+#videos_user {
+	width: 191px;
+	height: 38px;
+	background-image:url(../Design/left_box_faixa.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	z-index:1;
+	margin-left: 9px;
+	margin-top: 15px;
+}
+
+#VBOX {
+	width: 171px;
+	height: 114px;
+	background-image:url(../Design/degrade_box.png);
+	border:1px solid #b2b2b2;
+	position:absolute;
+	z-index:0;
+	margin-left: 28px;
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+}
+
+#pics_user {
+	width: 191px;
+	height: 38px;
+	background-image:url(../Design/right_box_faixa.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	margin-left: 541px;
+	margin-top: 15px;
+}
+
+
+#PBOX {
+	width: 171px;
+	height: 114px;
+	background-image:url(../Design/degrade_box.png);
+	border:1px solid #b2b2b2;
+	margin-left: 540px;
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+}
+
+
+#LBOX {
+	width: 144px;
+	height: 92px;
+	background-image:url(../Design/degrade_box.png);
+	border:1px solid #b2b2b2;
+	margin-left: 55px;
+	margin-top: 11px;
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+}
+
+#lyrics_user {
+	width: 164px;
+	height: 38px;
+	background-image:url(../Design/left_box_faixa_menor.png);
+	margin-left: 37px;
+	margin-top: -80px;
+}
+
+#RBOX {
+	width: 144px;
+	height: 92px;
+	background-image:url(../Design/degrade_box.png);
+	border:1px solid #b2b2b2;
+	margin-left: 540px;
+	margin-top: -50px;
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+}
+
+#references_user {
+	width: 165px;
+	height: 38px;
+	background-image:url(../Design/right_box_faixa_menor.png);
+	margin-left: 541px;
+	margin-top: -80px;
+}
+
+#ABOX {
+	width: 180px;
+	height: 118px;
+	background-image:url(../Design/degrade_box.png);
+	border:1px solid #b2b2b2;
+	margin-left: 280px;
+	margin-top: 48px;
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+}
+
+#agend_user {
+	width: 219px;
+	height: 39px;
+	background-image:url(../Design/center_faixa2.png);
+	margin-left: 260px;
+	margin-top: -100px;
+}
+
+a {
+	text-decoration:none;
+}
+
+.pAdd {
+	font-size:40px;
+	color:#FFF;
+	margin-top: 15px;
+	margin-left:5px;
+}

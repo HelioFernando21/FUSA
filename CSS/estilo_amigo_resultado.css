@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+
+#principal {
+	width: 995px;
+	height: 610px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#barra {
+	width: 995px;
+	height: 67px;
+	background-image:url(../Design/lines_menor.png);
+	background-repeat:no-repeat;
+}
+
+#conteudo {
+	width: 995px;
+	height: 520px;
+	position:absolute;
+	background-image:url(../Design/bg_linhas_conteudo.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	margin-top:20px;
+}
+
+#coluna1{
+	float:left;
+}
+
+#procurar_MV {
+	width: 180px;
+	height: 30px;
+	margin-top:12px;
+}
+
+#icone_video {
+	width: 22px;
+	height: 23px;
+	background-image:url(../Design/icone_video.png);
+	background-repeat:no-repeat;
+	float:left;
+}
+
+#linha_video {
+	width:180px;
+	height: 23px;
+}
+
+#input_video {
+	float:left;
+}
+
+#search_video {
+	width: 130px;
+	height: 17px;
+	margin-top:-1px;
+	position:absolute;
+}
+
+#search_video2 {
+	width: 145px;
+	height: 17px;
+	margin-top:-1px;
+	position:absolute;
+}
+
+#btn_video {
+	width:23px;
+	height:23px;
+	background-image:url(../Design/go_search.png);
+	background-size:contain;
+	position:absolute;
+	margin-left:135px;
+	margin-top:-1px;
+}
+
+
+#btn_video2 {
+	width:23px;
+	height:23px;
+	background-image:url(../Design/go_search.png);
+	background-size:contain;
+	position:absolute;
+	margin-left:150px;
+	margin-top:-1px;
+}
+
+#coluna2 {
+	width: 995px;
+	height: 475px;
+	float:left;
+	margin-left:15px;
+	overflow:auto;
+}
+
+#amigo {
+	width: 995px;
+	height: 475px;
+	overflow:auto;
+}
+
+#use{
+	width:40px;
+	height:40px;
+}
+
+.p_EC {
+	margin-left:34px;
+}
+
+.p_E {
+	margin-left:44px;
+}
+
+#form_search {
+	margin-top:20px;
+	text-align:end;
+	width:300px;
+	height:170px;
+}
+
+select {
+ 	width: 200px;
+	font-size: 12px;
+}
+
+#btn_procurar {
+	width:80px;
+	margin-left:110px;
+	background-image:url(../Design/back_enviar_lyric.png);
+	color:#FFF;
+	position:relative;
+}

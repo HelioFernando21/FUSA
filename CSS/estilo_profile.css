@@ -1,0 +1,551 @@
+@charset "utf-8";
+/* CSS Document */
+
+.p_text {
+	font-size:11px;
+
+}
+.p_font {
+	font-family:"Century Gothic";
+	color:#0d88cc;
+	font-weight:600;
+	font-size:20px;
+	margin-left:5px;
+	margin-top:2px;
+	position:absolute;
+}
+
+.p_link {
+	margin-top: 12px;
+	margin-left: 25px;
+	color:#FFF;
+	font-size:16px;
+	font-family:"Century Gothic";
+	margin-right: 10px;
+}
+
+#p_number_l {
+	width:64px;
+	height:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	text-align:end;
+	color:#FFF;
+	font-weight:700;
+	margin-top: -35px;
+	margin-left: 99px;
+}
+
+#p_number_v {
+	width:64px;
+	height:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	text-align:end;
+	color:#FFF;
+	font-weight:700;
+	margin-top: -35px;
+	margin-left: 126px;
+}
+
+#p_number_f {
+	width:64px;
+	height:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	text-align:end;
+	color:#FFF;
+	font-weight:700;
+	margin-top: -35px;
+	margin-left: 108px;
+}
+
+#p_number_a {
+	width:50px;
+	height:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	text-align:end;
+	color:#FFF;
+	font-weight:700;
+	margin-top: -35px;
+	margin-left: 150px;
+}
+
+#p_number_r {
+	width:50px;
+	height:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	text-align:end;
+	color:#FFF;
+	font-weight:700;
+	margin-top: -35px;
+	margin-left: 93px;
+}
+
+.p_link2 {
+	margin-top: 12px;
+	margin-left: 5px;
+	color:#FFF;
+	font-size:16px;
+	font-family:"Century Gothic";
+	margin-right: 10px;
+}
+
+.p_name_big {
+	font-size: 24px;
+	font-family:"Century Gothic";
+}
+
+.p_amigos {
+	margin-top:8px;
+	font-size: 16px;
+	position:absolute;
+	cursor:pointer;
+}
+
+.estatic3 {
+	margin-top: 6px;
+}
+
+.pAdd {
+	font-size:38px;
+	color:#FFF;
+	text-align:center;
+}
+
+#principal {
+	width: 995px;
+	height: 635px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#barra {
+	width: 995px;
+	height: 67px;
+	background-image:url(../Design/lines_menor.png);
+	background-repeat:no-repeat;
+}
+
+#conteudo {
+	width: 995px;
+	height: 570px;
+	position:absolute;
+	background-image:url(../Design/bg_linhas_conteudo.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+#inside{
+	float:left;
+	margin-top: 20px;
+}
+
+
+#infos_user2 {
+	width: 797px;
+	height: 140px;
+	float:left;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+#coluna1 {
+	width: 290px;
+	height: 140px;
+	float:left;
+	font-family:"Century Gothic";
+	font-size:26px;
+	color:#2da6e9;
+}
+
+#nome_user {
+	width: 280px;
+	height:35px;
+}
+
+#job_user {
+	width: 223px;
+	height: auto;
+}
+
+#banda_user {
+	width: 225px;
+	height: 15px;
+	margin-top: -26px;
+	margin-left: 50px;
+}
+
+#gravadora_user {
+	width: 200px;
+	height: 15px;
+	margin-top: -26px;
+	margin-left: 76px;
+}
+
+#coluna2 {
+	width: 45px;
+	height: 130px;
+	float:left;
+}
+
+#add_user {
+	width: 34px;
+	height: 93px;
+	background-image:url(../Design/add.png);
+	margin-top:-20px;
+}
+
+#coluna3 {
+	width: 450px;
+	height: 125px;
+	float:left;
+}
+
+#descri_user {
+	width: 450px;
+	height: 125px;
+}
+
+#caixas_refresh {
+	width: 750px;
+	height: 360px;	
+	margin-top: 180px;
+	margin-left: 236px;
+}
+
+#vertical_1 {
+	width:201px;
+	height: 300px;
+	float:left;
+}
+
+#videos_user {
+	width: 193px;
+	height: 38px;
+	margin-left:0px;
+	background-image:url(../Design/left_box_faixa.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	margin-top: -100px;
+}
+
+#VBOX {
+	width: 171px;
+	height: 114px;
+	margin-left: 20px;
+	background-image:url(../Design/degrade_box.png);
+	border:1px solid #b2b2b2;
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; 
+	opacity:0.7;
+	filter:alpha(opacity=70); 
+}
+
+#LBOX {
+	width: 144px;
+	height: 92px;
+	margin-left: 45px;
+	margin-top: 10px;
+	border:1px solid #b2b2b2;
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; 
+	opacity:0.7;
+	filter:alpha(opacity=70); 
+}
+
+#lyrics_user {
+	width: 165px;
+	height: 38px;
+	margin-top: -80px;
+	margin-left: 26px;
+	position:absolute;
+	background-image:url(../Design/left_box_faixa_menor.png);
+}
+
+#vertical_2 {
+	width:330px;
+	height: 360px;
+	float:left;
+}
+
+#player_user {
+	width: 320px;
+	height: 217px;
+	background-image:url(../Design/degrade_box_maior.png);
+	border:1px solid #b2b2b2;
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; 
+}
+
+#p_font {
+	width: 320px;
+	height:30px;
+}
+
+#playlist {
+	width: 320px;
+	height:145px;
+	max-height:150px;
+	overflow:auto;
+	overflow-x:hidden;
+}
+
+#music1 {
+	width: 305px;
+	height:25px;
+	background-color:#e2e2e2;
+	margin-left:7px;
+}
+
+#music2 {
+	width: 305px;
+	height:25px;
+	background-color:#d4d4d4;
+	margin-left:7px;
+}
+
+#playing {
+	width:7px;
+	height:7px;
+	background-color:#0d88cc;
+	float:left;
+	border-radius:50px;
+	margin-right:5px;
+	margin-left:5px;
+	margin-top:4px;
+}
+
+#musica {
+	float:left;
+	width: 280px;
+	height:20px;
+}
+
+#player_musica {
+	width: 300px;
+	height:32px;
+	margin-left:10px;
+	overflow:hidden;
+}
+
+.shadow {
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+.shadow2 {
+	-webkit-box-shadow:0 0 10px 0 #000;
+	   -moz-box-shadow:0 0 10px 0 #000;
+	        box-shadow:0 0 10px 0 #000;
+}
+
+#ABOX {
+	width: 180px;
+	height: 118px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 10px;
+	background-image:url(../Design/degrade_box.png);
+	border:1px solid #b2b2b2;
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px;
+	opacity:0.7;
+	filter:alpha(opacity=70); 
+}
+
+#agend_user {
+	width: 219px;
+	height: 39px;
+	background-image:url(../Design/center_faixa2.png);
+	position:absolute;
+	margin-left: 55px;
+	margin-top: -100px;
+}
+
+
+#vertical_3 {
+	width:200px;
+	height: 300px;
+	float:left;
+}
+
+#pics_user {
+	width: 194px;
+	height: 38px;
+	background-image:url(../Design/right_box_faixa.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	margin-top: 20px;
+	z-index:4;
+}
+
+#PBOX {
+	width: 171px;
+	height: 114px;
+	background-image:url(../Design/degrade_box.png);
+	border:1px solid #b2b2b2;
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; 
+	opacity:0.7;
+	filter:alpha(opacity=70); 
+	z-index:0;
+}
+
+
+#RBOX {
+	width: 144px;
+	height: 92px;
+	margin-top:10px;
+	background-image:url(../Design/degrade_box.png);
+	border:1px solid #b2b2b2;
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px;
+	opacity:0.7;
+	filter:alpha(opacity=70); 
+}
+
+#references_user {
+	width: 164px;
+	height: 38px;
+	background-image:url(../Design/right_box_faixa_menor.png);
+	position:absolute;
+	margin-top: -80px;
+	margin-left: 1px;
+}
+
+/* ------------------- fim das caixas ------------------- */
+
+#mostrar_amigos{
+	
+	position:absolute;
+	width:300px;
+	height:300px;
+	margin-left:-150px;
+	margin-top:-150px;
+	top:300px;
+	left:600px;
+	background-color:#F00;
+	z-index:10;
+	display:none;
+}
+
+#pretona {
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	background-color:#000;
+	opacity:0.7;
+	position:absolute;
+	z-index:1;
+	display:none;
+}
+
+/*
+-------
+-------
+-------
+-------
+
+-------
+-------
+-------
+-------
+*/
+
+#adicionar_integrante { 
+	background-image:url(../Design/transparente.png);
+	width:137px;
+	height:auto;
+	position:absolute;
+	left:700px;
+	top:180px;
+	display:none;
+	z-index:50;
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; 
+	-webkit-box-shadow:0 0 15px 0 #000;
+	   -moz-box-shadow:0 0 15px 0 #000;
+	        box-shadow:0 0 15px 0 #000;
+}
+
+#conteudo_integrante {
+	background-color:#2E2E2E;
+	float:left;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; 
+}
+
+#fecha_integra {
+	background-color:#06F;
+	float:right;
+	cursor:pointer;
+	border-top-right-radius:15px;	
+}
+
+.p_E {
+	font-size:10px;
+}
+
+#adcionar_produtor { 
+	background-image:url(../Design/transparente.png);
+	width:304px;
+	height:auto;
+	position:absolute;
+	left:700px;
+	top:180px;
+	display:none;
+	z-index:50;
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; 
+	-webkit-box-shadow:0 0 15px 0 #000;
+	   -moz-box-shadow:0 0 15px 0 #000;
+	        box-shadow:0 0 15px 0 #000;
+}
+
+#adicionar_integras {
+	color:#FFF;
+	background-image:url(../Design/back_enviar_lyric.png);
+}
+
+#conteudo_produtor {
+	background-color:#2E2E2E;
+	float:left;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; 
+}
+
+#fecha_adiciona_produtor {
+	background-color:#06F;
+	float:right;
+	cursor:pointer;
+	border-top-right-radius:15px;
+}
+
+#Enviar_msg {
+	color:#FFF;
+	background-image:url(../Design/back_enviar_lyric.png);
+	margin-left:10px;
+}

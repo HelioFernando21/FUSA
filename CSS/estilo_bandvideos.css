@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+
+.p_amigos {
+	margin-left: 20px;
+	margin-top: 12px;
+	font-size: 16px;
+}
+
+.p_link_ref {
+	font-family:"Century Gothic";
+	font-size:16px;
+	margin-top: 3px;
+	margin-left: 30px;
+	color:#FFF;
+}
+
+.p_link {
+	font-family:"Century Gothic";
+	font-size:16px;
+	margin-top: 3px;
+	margin-left: 55px;
+	color:#FFF;
+}
+
+.p_link_esq {
+	font-family:"Century Gothic";
+	font-size:16px;
+	margin-top: 3px;
+	margin-left: 50px;
+	color:#FFF;
+}
+
+.p_link_dir {
+	font-family:"Century Gothic";
+	font-size:16px;
+	margin-top: 3px;
+	margin-left: 42px;
+	color:#FFF;
+}
+
+#principal {
+	width: 995px;
+	height: auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#barra {
+	width: 995px;
+	height: 67px;
+	background-image:url(../Design/lines_menor.png);
+	background-repeat:no-repeat;
+}
+
+#conteudo {
+	width: 995px;
+	height: auto;
+	position:absolute;
+	background-image:url(../Design/bg_linhas_conteudo.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	padding-bottom:30px;
+}
+
+#banner {
+	width: 995px;
+	height: 265px;
+	margin-top: 15px;
+	overflow:hidden;
+}
+
+#menu {
+	width: 800px;
+	height: 30px;
+	position:relative;
+	margin-left: 100px;
+	margin-top:-30px;
+}
+
+#bt1 {
+	width: 154px;
+	height: 30px;
+	float:left;
+	background-image:url(../Design/btn_on.png);
+}
+
+#bt2 {
+	width: 154px;
+	height: 30px;
+	float:left;
+	background-image:url(../Design/btn_out.png);
+	margin-left:7px;
+}
+
+#bt3 {
+	width: 154px;
+	height: 30px;
+	float:left;
+	background-image:url(../Design/btn_out.png);
+	margin-left:7px;
+}
+
+#bt4 {
+	width: 154px;
+	height: 30px;
+	float:left;
+	background-image:url(../Design/btn_out.png);
+	margin-left:7px;
+}
+
+#bt5 {
+	width: 156px;
+	height: 30px;
+	float:left;
+	background-image:url(../Design/btn_out.png);
+	margin-left:7px;
+}
+
+#caixa_uploud_video {
+	width: 156px;
+	height: 28px;
+	margin-left: 100px;
+	margin-top: 5px;
+}
+
+#bt_uploud_video {
+	width: 156px;
+	height: 28px;
+	color:#FFF;
+	float:left;
+	background-color:#0d88cc;
+	border-color:#0d88cc;
+}
+
+#videos {
+	width: 820px;
+	height:auto;
+	margin-top: 12px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#video {
+	width: 385px;
+	height: 225px;
+}
+
+#btn_play {
+	width:83px;
+	height:83px;
+	background-repeat:no-repeat;
+	background-image:url(../Design/play_video.png);
+	margin-left:125px;	
+	position:relative;
+	margin-top:50px;
+}
+
+#btn_play:hover {	
+	background-image:url(../Design/play_video_hover.png);
+}
+
+#title_video {
+	width: 330px;
+	height: 22px;
+}
+
+#imagem {
+	width:330px;
+	height:185px;
+	float:left;
+}
+
+#icon {
+	width: 20px;
+	height: 29px;
+	background-image:url(../Design/excluir.png);
+	background-repeat:no-repeat;
+	margin-left: 7px;
+	float:left;
+	margin-top:-60px;
+}
+
+.alinhado {
+	float: left;
+	margin-left: 12px;
+	margin-right: 2px;
+	margin-top: 6px;
+	margin-bottom: 25px;
+}
+

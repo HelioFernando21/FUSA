@@ -1,0 +1,596 @@
+@charset "utf-8";
+/* CSS Document */
+
+.p_link {
+	margin-top: 15px;
+	margin-left: 25px;
+	color:#FFF;
+	font-size:16px;
+	font-family:"Century Gothic";
+	margin-right: 10px;
+}
+
+.p_link_2 {
+	margin-top: 15px;
+	margin-left: 5px;
+	color:#FFF;
+	font-size:16px;
+	font-family:"Century Gothic";
+	margin-right: 10px;
+}
+
+.p_link_middle {
+	margin-top: 13px;
+	margin-left: 28px;
+	color:#FFF;
+	font-size:16px;
+	font-family:"Century Gothic";
+	margin-right: 10px;
+}
+
+#p_number_l {
+	width:50px;
+	height:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	text-align:end;
+	color:#FFF;
+	font-weight:700;
+	margin-top: -35px;
+	margin-left: 145px;
+}
+
+#p_number_v {
+	width:50px;
+	height:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	text-align:end;
+	color:#FFF;
+	font-weight:700;
+	margin-top: -35px;
+	margin-left: 130px;
+}
+
+#p_number_f {
+	width:50px;
+	height:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	text-align:end;
+	color:#FFF;
+	font-weight:700;
+	margin-top: -35px;
+	margin-left: 130px;
+}
+
+#p_number_a {
+	width:50px;
+	height:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	text-align:end;
+	color:#FFF;
+	font-weight:700;
+	margin-top: -35px;
+	margin-left: 110px;
+}
+
+#p_number_r {
+	width:50px;
+	height:15px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	text-align:end;
+	color:#FFF;
+	font-weight:700;
+	margin-top: -35px;
+	margin-left: 110px;
+}
+
+.p_integrantes {
+	margin-left: 50px;
+	margin-top: 5px;
+	font-size: 16px;
+	position:absolute;
+}
+
+.p_name_big {
+	font-family:"Century Gothic";
+	font-size:26px;
+	color:#2da6e9;
+	
+}
+
+#principal {
+	width: 995px;
+	height: 647px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#barra {
+	width: 995px;
+	height: 67px;
+	background-image:url(../Design/lines_menor.png);
+	background-repeat:no-repeat;
+}
+
+#conteudo {
+	width: 995px;
+	height: 570px;
+	position:absolute;
+	background-image:url(../Design/bg_linhas_conteudo.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+#horizontal_1 {
+	width: 995px;
+	height: 160px;
+	margin-top: 15px;
+}
+
+#info_esquerda {
+	width: 330px;
+	height: 100px;
+	float:left;
+}
+
+#name_band {
+	width: 330px;
+	height: 44px;
+	
+}
+
+#estilo_band {
+	width: 330px;
+	height: 20px;
+}
+
+#pertence_band {
+	width: 330px;
+	height: 20px;
+}
+
+
+#info_meio {
+	width: 200px;
+	height: 160px;
+	float:left;
+	margin-left:40px;
+}
+
+#integrantes_band {
+	width: 183px;
+	height: 88px;
+	margin-top: 34px;
+	margin-left: 10px;
+	position:absolute;
+}
+
+#int1 {
+	width: 40px;
+	height: 40px;
+	background-color:#b8b8b8;
+	border:1px solid #666;
+	float:left;
+	margin-bottom:auto;
+	position:relative;
+	background-size:40px;
+	background-repeat:no-repeat;
+}
+
+#int2 {
+	width: 40px;
+	height: 40px;
+	background-color:#b8b8b8;
+	border:1px solid #666;
+	float:left;
+	margin-left:4px;
+	position:relative;
+	background-size:40px;
+	background-repeat:no-repeat;
+}
+
+#int3 {
+	width: 40px;
+	height: 40px;
+	background-color:#b8b8b8;
+	border:1px solid #666;
+	float:left;
+	margin-left:4px;
+	position:relative;
+	background-size:40px;
+	background-repeat:no-repeat;
+}
+
+#int4 {
+	width: 40px;
+	height: 40px;
+	background-color:#b8b8b8;
+	border:1px solid #666;
+	float:left;
+	margin-left:4px;
+	position:relative;
+	background-size:40px;
+	background-repeat:no-repeat;
+}
+
+#int5 {
+	width: 40px;
+	height: 40px;
+	background-color:#b8b8b8;
+	border:1px solid #666;
+	float:left;
+	margin-top:4px;
+	position:relative;
+	background-size:40px;
+	background-repeat:no-repeat;
+}
+
+#int6 {
+	width: 40px;
+	height: 40px;
+	background-color:#b8b8b8;
+	border:1px solid #666;
+	float:left;
+	margin-left:4px;
+	position:relative;
+	margin-top:4px;
+	background-size:40px;
+	background-repeat:no-repeat;
+}
+
+#int7 {
+	width: 40px;
+	height: 40px;
+	background-color:#b8b8b8;
+	border:1px solid #666;
+	float:left;
+	margin-left:4px;
+	position:relative;
+	margin-top:4px;
+	background-size:40px;
+	background-repeat:no-repeat;
+
+}
+
+#int8 {
+	width: 40px;
+	height: 40px;
+	background-color:#b8b8b8;
+	border:1px solid #666;
+	float:left;
+	margin-left:4px;
+	position:relative;
+	margin-top:4px;
+	background-size:40px;
+	background-repeat:no-repeat;
+
+}
+
+#more_int {
+	width: 180px;
+	height: 27px;
+	background-color:#0d88cc;
+	border-color:#0d88cc;
+	margin-top: 130px;
+	margin-left:10px;
+	color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+#info_direita {
+	width: 410px;
+	height: 155px;
+	float:left;
+	margin-left:10px;
+	margin-top:5px;
+}
+
+#horizontal_2 {
+	width: 995px;
+	height: 265px;
+	border:1px solid #666;
+	overflow:hidden;
+	margin-top: 5px;
+	z-index:0;
+}
+
+#player_band {
+	width: 320px;
+	height: 217px;
+	background-image:url(../Design/degrade_box_maior.png);
+	border:1px solid #b2b2b2;
+	position:absolute;
+	margin-left: 660px;
+	margin-top:-242px;
+	z-index:1;
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+}
+
+#horizontal_3 {
+	width: 980px;
+	height: 120px;
+	margin-top: 10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#VBOX {
+	width:160px;
+	height:112px;
+	float:left;
+	margin-left:20px;
+	background-image:url(../Design/degrade_box.png);
+	border:1px solid #b2b2b2;
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+	opacity:0.7;
+	filter:alpha(opacity=70); 
+}
+
+#videos_band {
+	width: 182px;
+	height: 42px;
+	background-image:url(../Design/band_faixa_esquerda.png);
+	position:absolute;
+	margin-top:15px;
+}
+
+#PBOX {
+	width:160px;
+	height:112px;
+	float:left;
+	margin-left: 28px;
+	background-image:url(../Design/degrade_box.png);
+	border:1px solid #b2b2b2;
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+	opacity:0.7;
+	filter:alpha(opacity=70); 
+}
+
+#pics_band {
+	width: 182px;
+	height: 42px;
+	background-image:url(../Design/band_faixa_esquerda.png);
+	position:absolute;
+	margin-left: 190px;
+	margin-top:15px;
+}
+
+#LBOX {
+	width:171px;
+	height:112px;
+	float:left;
+	margin-left: 31px;
+	background-image:url(../Design/degrade_box.png);
+	border:1px solid #b2b2b2;
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+	opacity:0.7;
+	filter:alpha(opacity=70); 
+}
+
+#lyrics_band {
+	width: 219px;
+	height: 40px;
+	background-image:url(../Design/band_faixa_central.png);
+	position:absolute;
+	margin-left: 380px;
+	margin-top:18px;
+}
+
+#RBOX {
+	width:160px;
+	height:112px;
+	float:left;
+	margin-left: 31px;
+	background-image:url(../Design/degrade_box.png);
+	border:1px solid #b2b2b2;
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+	opacity:0.7;
+	filter:alpha(opacity=70); 
+}
+
+#references_band {
+	width: 182px;
+	height: 42px;
+	background-image:url(../Design/band_faixa_direita.png);
+	position:absolute;
+	margin-left: 607px;
+	margin-top:15px;
+}
+
+
+#ABOX {
+	width:160px;
+	height:112px;
+	float:left;
+	margin-left: 29px;
+	background-image:url(../Design/degrade_box.png);
+	border:1px solid #b2b2b2;
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+	opacity:0.7;
+	filter:alpha(opacity=70); 
+}
+
+#agend_band {
+	width: 182px;
+	height: 42px;
+	background-image:url(../Design/band_faixa_direita.png);
+	position:absolute;
+	margin-left: 798px;
+	margin-top:15px;
+}
+
+
+.shadow {
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+.shadow2 {
+	-webkit-box-shadow:0 0 10px 0 #000;
+	   -moz-box-shadow:0 0 10px 0 #000;
+	        box-shadow:0 0 10px 0 #000;
+}
+
+
+.p_font {
+	font-family:"Century Gothic";
+	color:#0d88cc;
+	font-weight:600;
+	font-size:20px;
+	margin-left:5px;
+	margin-top:2px;
+	position:absolute;
+}
+
+#p_font {
+	width: 320px;
+	height:30px;
+}
+
+#playlist {
+	width: 320px;
+	height:145px;
+	max-height:150px;
+	overflow:auto;
+}
+
+#music1 {
+	width: 305px;
+	height:25px;
+	background-color:#e2e2e2;
+	margin-left:7px;
+}
+
+#music2 {
+	width: 305px;
+	height:25px;
+	background-color:#d4d4d4;
+	margin-left:7px;
+}
+
+#playing {
+	width:7px;
+	height:7px;
+	background-color:#0d88cc;
+	float:left;
+	border-radius:50px;
+	margin-right:5px;
+	margin-left:5px;
+	margin-top:4px;
+}
+
+#musica {
+	float:left;
+	width: 280px;
+	height:20px;
+}
+
+#player {
+	width: 304px;
+	height:32px;
+	background-color:#999;
+	margin-left:8px;
+	
+}
+
+
+
+
+#adicionar_integrante { 
+	background-image:url(../Design/transparente.png);
+	width:123px;
+	height:auto;
+	position:absolute;
+	left:700px;
+	top:350px;
+	display:none;
+	z-index:50;
+	
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; 
+	-webkit-box-shadow:0 0 15px 0 #000;
+	   -moz-box-shadow:0 0 15px 0 #000;
+	        box-shadow:0 0 15px 0 #000;
+	
+}
+
+#conteudo_integrante {
+	background:#6F0;
+	float:left;
+}
+
+#fecha_integra{
+	background-color:#06F;
+	float:right;
+	cursor:pointer;
+	
+}
+
+
+#adcionar_produtor{ 
+	background-image:url(../Design/transparente.png);
+	width:290px;
+	height:auto;
+	position:absolute;
+	left:50px;
+	top:120px;
+	display:none;
+	z-index:50;
+	
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; 
+	-webkit-box-shadow:0 0 15px 0 #000;
+	   -moz-box-shadow:0 0 15px 0 #000;
+	        box-shadow:0 0 15px 0 #000;
+}
+
+#conteudo_produtor {
+	background-color:#2E2E2E;
+	float:left;
+	width:290px;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; 
+}
+
+#fecha_adiciona_produtor {
+	background-color:#06F;
+	float:right;
+	cursor:pointer;
+	border-top-right-radius:15px;
+}
+
+.Enviar_{
+	color:#FFF;
+	background-image:url(../Design/back_enviar_lyric.png);
+	margin-left:12px;
+}
+
+

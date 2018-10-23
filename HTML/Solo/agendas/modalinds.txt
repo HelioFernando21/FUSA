@@ -1,0 +1,40 @@
+
+<span style="color: white; border: solid 1px; background: red;"></span><html>
+
+<head>
+<title>Fuga do Fusa</title>
+
+<link rel="stylesheet" href="css/jquery-ui-1.9.1.custom.css" />
+
+<script src="lib/jquery-1.8.2.js" type="text/javascript"></script>
+<script src="lib/jquery-ui-1.9.1.custom.js" type="text/javascript"></script>
+</head>
+
+<body>
+<script>
+
+$.fx.speeds._default = 1000;
+$(function() {
+	$( "#dialog" ).dialog({
+		autoOpen: false,
+		hide: "explode",
+		resizable: false,
+		modal: true
+	});
+
+	$( "#abrir_form" ).click(function() {
+		$("#dialog").dialog( "open" );
+		return true;
+	});
+});
+</script>
+
+<p id="abrir_form">Abrir Form Clique aqui</p>
+
+<form action="index.php" method="post" enctype="multipart/form-data" name="form1" id="dialog">
+  <input type="file" name="arquivo">
+  <input type="submit" name="Submit" value="Enviar">
+</form>
+</body>
+
+</html>

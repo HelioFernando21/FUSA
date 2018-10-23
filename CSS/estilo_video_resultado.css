@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image:url(../Design/bg_user.png);
+	background-repeat:repeat-x;
+	background-color:#1f1f1f;
+}
+
+a{
+	text-decoration:none;
+	color:#0d88cc;
+}
+
+p {
+	color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 0px;
+}
+
+#principal {
+	width: 995px;
+	height: 610px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#barra {
+	width: 995px;
+	height: 67px;
+	background-image:url(../Design/lines_menor.png);
+	background-repeat:no-repeat;
+}
+
+#conteudo {
+	width: 995px;
+	height: 520px;
+	position:absolute;
+	background-image:url(../Design/bg_linhas_conteudo.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	margin-top:20px;
+}
+
+#coluna1{
+	float:left;
+}
+
+#procurar_MV {
+	width: 180px;
+	height: 30px;
+	margin-top:12px;
+}
+
+#icone_video {
+	width: 22px;
+	height: 23px;
+	background-image:url(../Design/icone_video.png);
+	background-repeat:no-repeat;
+	float:left;
+}
+
+#linha_video {
+	width:180px;
+	height: 23px;
+}
+
+#input_video {
+	float:left;
+}
+
+#search_video {
+	width: 145px;
+	height: 17px;
+	margin-top:-1px;
+	position:absolute;
+}
+
+#btn_video {
+	width:23px;
+	height:23px;
+	background-image:url(../Design/go_search.png);
+	background-size:contain;
+	position:absolute;
+	margin-left:150px;
+	margin-top:-1px;
+}
+
+
+#coluna2 {
+	width: 770px;
+	height: 475px;
+	float:left;
+	margin-left:15px;
+	overflow:auto;
+}
+
+#videos {
+	width: 770px;
+	height: 450px;
+	background-image:url(../Design/linha_roll.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	overflow:auto;
+}
+
+#video {
+	width: 238px;
+	height: 170px;
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+
+#btn_play {
+	width:83px;
+	height:83px;
+	background-repeat:no-repeat;
+	background-image:url(../Design/play_video.png);
+	margin-left:80px;	
+	position:relative;
+	margin-top:25px;
+}
+
+#btn_play:hover {	
+	background-image:url(../Design/play_video_hover.png);
+}
+
+
+#title_video {
+	width: 238px;
+	height: 22px;
+	color:#FFF;
+}
+
+#imagem {
+	width:238px;
+	height:185px;
+	float:left;
+}
+
+#rodape0 {
+	width:995px;
+	height:30px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(../Design/linha_rodape.png);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+
+.float0 {
+	float:left;
+	margin-right:15px;
+	margin-top:06px;
+}
+
+.space0 {
+	margin-left:340px;
+	color:#0d88cc;
+}
+
+.color0 {
+	color:#0d88cc;
+}

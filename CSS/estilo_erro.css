@@ -1,0 +1,363 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image:url(../Design/bg_user.png);
+	background-repeat:repeat-x;
+	background-color:#1f1f1f;
+}
+
+a {
+	text-decoration:none;
+	color:#0d88cc;
+}
+
+.aFORGET {
+	text-decoration:none;
+	font-size:11px;
+	margin-left: 225px;
+	color:#999;
+}
+
+p {
+	color:#000;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+	margin-top:0px;
+}
+
+.title0 {
+	font-family:"Century Gothic";
+	font-size:26px;
+	color:#0d88cc;
+	margin-top:25px;
+	margin-left:100px;
+}
+
+.title {
+	font-family:"Century Gothic";
+	font-size:26px;
+	color:#0d88cc;
+	margin-top:25px;
+}
+
+.title2 {
+	font-family:"Century Gothic";
+	font-size:26px;
+	color:#0d88cc;
+	margin-top:25px;
+	margin-left:350px;
+}
+
+.title3 {
+	font-family:"Century Gothic";
+	font-size:26px;
+	color:#0d88cc;
+	margin-top:25px;
+	margin-left:390px;
+}
+
+.white0 {
+	color:#FFF;
+	margin-top:-20px;
+	font-size:12px;
+	margin-left:100px;
+	margin-right:10px;
+}
+
+.white {
+	color:#FFF;
+	margin-top:-20px;
+	font-size:12px;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.p_big {
+	color:#FFF;
+	font-size: 34px;
+	font-family:"Century Gothic";
+	padding-top:70px;
+	margin-left:200px;
+}
+
+.p_azul {
+	color:#0d88cc;
+	font-size: 22px;
+	font-family:Verdana, Geneva, sans-serif;
+	margin-left:200px;
+	margin-top:-25px;
+	text-align:left;
+}
+
+#principal {
+	width: 995px;
+	height: 600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#barra {
+	width: 995px;
+	height: 67px;
+	background-image:url(../Design/lines_menor.png);
+	background-repeat:no-repeat;
+}
+
+#Fusa_home {
+	width: 125px;
+	height: 50px;
+	background-image:url(../Design/fusa.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin-top: 7px;
+}
+
+#search_pessoas_input {
+	width: 200px;
+}
+
+#go_search {
+	width:22px;
+	height:22px;
+	margin-left:-5px;
+	background-image:url(../Design/go_search2.png);
+	background-repeat:no-repeat;
+	background-color:#F0F0F0;
+	border-color:#F0F0F0;
+}
+
+#procurar_users {
+	width: 241px;
+	height: 25px;
+	margin-left:70px;
+	margin-top: 22px;
+	float:left;
+}
+
+#infos_user {
+	width: 400px;
+	height: 60px;
+	float:left;
+	margin-left:150px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-align:left;
+}
+
+#logar {
+	width: auto;
+	height:60px;
+	float:right;
+	text-align:right;
+}
+
+.p_nome {
+	color:#000;
+	float:left;
+	margin-right:10px;
+	margin-top:28px;
+}
+
+.p_foto {
+	border:1px solid #666;
+	float:left;
+	margin-right:10px;
+	margin-top:10px;
+}
+
+.p_sair {
+	color:#0d88cc;
+	float:left;
+	margin-top:28px;
+}
+
+#email {
+	width:120px;
+}
+
+#senha {
+	width:120px;
+}
+
+#texto_auxiliar {
+	width: 410px;
+	height:20px;
+}
+
+#bt_entrar {
+	background-image:url(../Design/bt_entrar.png);
+	font-family:Verdana, Geneva, sans-serif;
+	color:#FFF;
+}
+
+
+#conteudo {
+	width: 995px;
+	height: 533px;
+	position:absolute;
+	background-image:url(../Design/fusa_erro.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	background-size:contain;
+}
+
+#warning {
+	width:660px;
+	height:270px;	
+	margin-left:100px;
+	background-image:url(../Design/fusa_nota.png);
+	background-repeat:no-repeat;
+	margin-top:150px;
+}
+
+
+#rodape {
+	width:995px;
+	height:30px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(../Design/linha_rodape.png);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+
+.float {
+	float:left;
+	margin-right:15px;
+	margin-top:06px;
+}
+
+.space {
+	margin-left:340px;
+	color:#0d88cc;
+	font-size:12px;
+}
+
+.color {
+	color:#0d88cc;
+	font-size:12px;
+}
+
+#nota_menor {
+	width:129px;
+	height:147px;
+	background-image:url(../Design/nota_menor.png);
+	margin-top:20px;
+	float:left;
+}
+
+#descri {
+	width:650px;
+	height:147px;
+	margin-top:20px;
+	float:left;
+	margin-left:-20px;
+}
+
+#img {
+	width:705px;
+	height:380px;
+	background-image:url(../Design/img_about_fusa.png);
+	margin-top:140px;
+	margin-left:100px;
+}
+
+.b_s {
+	position:absolute;
+	margin-top:154px;
+	margin-left:14px;
+	color:#000;
+	font-size:11px;
+}
+
+.prd {
+	position:absolute;
+	margin-left:560px;
+	color:#000;
+	font-size:11px;
+}
+
+.vist {
+	position:absolute;
+	margin-left:555px;
+	margin-top:325px;
+	color:#000;
+	font-size:11px;
+}
+
+#us {
+	width:900px;
+	height:400px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#AnnaAmex {
+	width:225px;
+	height:400px;
+	background-image:url(../Design/linha_desenv.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	float:left;
+}
+
+#HelioFer {
+	width:225px;
+	height:400px;
+	background-image:url(../Design/linha_desenv.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	float:left;
+}
+
+#LeoMonte {
+	width:225px;
+	height:400px;
+	background-image:url(../Design/linha_desenv.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	float:left;
+}
+
+#RafaFranca {
+	width:225px;
+	height:400px;
+	float:left;
+}
+
+#photo {
+	width:150px;
+	height:150px;
+	background-color:#000;
+	margin-left:40px;
+}
+
+.name {
+	font-family:"Century Gothic";
+	font-size:22px;
+	color:#0d88cc;
+	margin-top:10px;
+	margin-left:45px;
+}
+
+.name2 {
+	font-family:"Century Gothic";
+	font-size:22px;
+	color:#0d88cc;
+	margin-top:10px;
+	margin-left:32px;
+}
+
+.name3 {
+	font-family:"Century Gothic";
+	font-size:22px;
+	color:#0d88cc;
+	margin-top:10px;
+	margin-left:65px;
+}
+
+#produtores {
+	margin-left:150px;
+	margin-top:50px;
+}

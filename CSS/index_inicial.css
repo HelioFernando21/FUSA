@@ -1,0 +1,300 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image:url(../Design/bg_cinza.png);
+	background-repeat:repeat-x;
+	background-color:#d4d4d4;
+}
+
+a {
+	text-decoration:none;
+	color:#0d88cc;
+}
+
+.aFORGET {
+	text-decoration:none;
+	font-size:11px;
+	margin-left: 350px;
+	color:#999;
+	font-family:Verdana, Geneva, sans-serif;
+	margin-top:30px;
+	position:absolute;
+}
+
+.links1 {
+	font-family:"Century Gothic";
+	font-size:24px;
+	color:#FFF;
+	margin-left:164px;
+	margin-top:62px;
+	position:absolute;
+}
+
+.links2 {
+	font-family:"Century Gothic";
+	font-size:24px;
+	color:#FFF;
+	margin-left:210px;
+	margin-top:3px;
+	position:absolute;
+}
+
+.recuar {
+	text-align:left;
+	margin-left:50px;
+}
+.recuar2 {
+	text-align:left;
+	margin-left:-3px;
+}
+
+
+.frase1 {
+	margin-top:10px;
+	margin-left:53px;
+}
+
+.frase2 {
+	margin-top:10px;
+	margin-left:70px;
+}
+
+p {
+	color:#000;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	margin-top:0px;
+}
+
+#principal {
+	width: 995px;
+	height: 600px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#barra {
+	width: 995px;
+	height: 67px;
+	background-image:url(../Design/lines_menor.png);
+	background-repeat:no-repeat;
+}
+
+#Fusa_home {
+	width: 125px;
+	height: 50px;
+	background-image:url(../Design/fusa.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin-top: 7px;
+}
+
+#procurar_users {
+	width: 241px;
+	height: 25px;
+	margin-left:70px;
+	margin-top: 22px;
+	float:left;
+}
+
+#search_pessoas_input {
+	width: 200px;
+}
+
+#go_search {
+	width:22px;
+	height:22px;
+	margin-left:-5px;
+	background-image:url(../Design/go_search2.png);
+	background-repeat:no-repeat;
+	background-color:#F0F0F0;
+	border-color:#F0F0F0;
+}
+
+#infos_user {
+	width: 410px;
+	height: 60px;
+	float:left;
+	margin-left:140px;
+}
+
+#email {
+	width:120px;
+}
+
+#senha {
+	width:120px;
+}
+
+#texto_auxiliar {
+	width: 410px;
+	height:20px;
+}
+
+.p_frase {
+	color:#000;
+}
+
+#logar {
+	width: 410px;
+	height:40px;
+}
+
+#logar2 {
+	width: 410px;
+	height:40px;
+	margin-left:-140px;
+	margin-top:-10px;
+}
+
+
+#bt_entrar {
+	background-image:url(../Design/back_enviar_lyric.png);
+	font-family:Verdana, Geneva, sans-serif;
+	color:#FFF;
+	margin-top:-24px;
+	float:left;
+	margin-left:350px;
+}
+
+#conteudo {
+	width: 995px;
+	height: 533px;
+	position:absolute;
+}
+
+#img {
+	position:absolute;
+	z-index:-1;
+	margin-left:230px;
+	margin-top:20px;
+}
+
+#img2 {
+	position:absolute;
+	z-index:-2;
+	margin-left:325px;
+	margin-top:20px;
+}
+
+#esquerda {
+	width:497px;
+	height:100px;
+	background-image:url(../Design/497.png);
+	background-repeat:no-repeat;
+	float:left;
+	top:150px;
+	position:relative;
+}
+
+#direita {
+	width:498px;
+	height:120px;
+	background-image:url(../Design/498.png);
+	background-repeat:no-repeat;
+	float:left;
+	top:209px;
+	position:relative;
+	
+}
+
+#meio {
+	width:293px;
+	height:293px;
+	background-image:url(../Design/logo_centro.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	margin-left:325px;
+	margin-top:80px;
+
+}
+
+#HIDE_Visitante {
+	width: 265px;
+	height: 280px;
+	background-image:url(../Design/transparente.png);
+	position:absolute;
+	top:249px;
+	margin-left:80px;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	display:none;
+}
+
+#HIDE_Artista {
+	width: 300px;
+	height: 280px;
+	background-image:url(../Design/transparente.png);
+	position:absolute;
+	margin-left:600px;
+	top:249px;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	display:none;
+}
+
+#cadastro_artista {
+	text-align:right;
+	width:250px;
+	height:240px;
+	margin-left:20px;
+}
+
+#btn_cadastrar_artista {
+	position:absolute;
+	margin-left:70px;
+	margin-top:-5px;
+	width:100px;
+	height:25px;
+	background-image:url(../Design/btn_on.png);
+	background-size:contain;
+	color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	border-color:#0d88cc;
+}
+
+#cadastro_visitante {
+	text-align:right;
+	width:250px;
+	height:240px;
+	margin-left:5px;
+}
+
+#btn_cadastrar_visitante {
+	position:absolute;
+	margin-left:70px;
+	margin-top:-5px;
+	width:100px;
+	height:25px;
+	background-image:url(../Design/btn_on.png);
+	background-size:contain;
+	color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	border-color:#0d88cc;
+}
+
+#rodape {
+	width:995px;
+	height:30px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(../Design/linha_rodape.png);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+
+.float {
+	float:left;
+	margin-right:15px;
+	margin-top:06px;
+}
+
+.space {
+	margin-left:340px;
+	color:#0d88cc;
+}
+
+.color {
+	color:#0d88cc;
+}

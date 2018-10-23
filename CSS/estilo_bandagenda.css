@@ -1,0 +1,247 @@
+@charset "utf-8";
+/* CSS Document */
+
+.p_amigos {
+	margin-left: 20px;
+	margin-top: 12px;
+	font-size: 16px;
+}
+
+.p_link_ref {
+	font-family:"Century Gothic";
+	font-size:16px;
+	margin-top: 3px;
+	margin-left: 30px;
+	color:#FFF;
+}
+
+.p_link {
+	font-family:"Century Gothic";
+	font-size:16px;
+	margin-top: 3px;
+	margin-left: 55px;
+	color:#FFF;
+}
+
+.p_link_esq {
+	font-family:"Century Gothic";
+	font-size:16px;
+	margin-top: 3px;
+	margin-left: 50px;
+	color:#FFF;
+}
+
+.p_link_dir {
+	font-family:"Century Gothic";
+	font-size:16px;
+	margin-top: 3px;
+	margin-left: 42px;
+	color:#FFF;
+}
+
+h2 {
+	margin-top:0px;
+	font-family:"Century Gothic";
+	color: #0d88cc;
+	margin-right: 18px;
+	margin-left:5px;
+	float:left;
+	font-size:22px;
+}
+
+.h_title {
+	margin-right: 60px;
+	margin-left: 110px;
+}
+
+
+#principal {
+	width: 995px;
+	height: auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#barra {
+	width: 995px;
+	height: 67px;
+	background-image:url(../Design/lines_menor.png);
+	background-repeat:no-repeat;
+}
+
+#conteudo {
+	width: 995px;
+	height: 570px;
+	position:absolute;
+	background-image:url(../Design/bg_linhas_conteudo.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+#banner {
+	width: 995px;
+	height: 265px;
+	margin-top: 15px;
+	overflow:hidden;
+}
+
+#menu {
+	width: 800px;
+	height: 30px;
+	position:relative;
+	margin-left: 100px;
+	margin-top:-30px;
+}
+
+#bt1 {
+	width: 154px;
+	height: 30px;
+	float:left;
+	background-image:url(../Design/btn_out.png);
+}
+
+#bt2 {
+	width: 154px;
+	height: 30px;
+	float:left;
+	background-image:url(../Design/btn_out.png);
+	margin-left:7px;
+}
+
+#bt3 {
+	width: 154px;
+	height: 30px;
+	float:left;
+	background-image:url(../Design/btn_out.png);
+	margin-left:7px;
+}
+
+#bt4 {
+	width: 154px;
+	height: 30px;
+	float:left;
+	background-image:url(../Design/btn_out.png);
+	margin-left:7px;
+}
+
+#bt5 {
+	width: 156px;
+	height: 30px;
+	float:left;
+	background-image:url(../Design/btn_on.png);
+	margin-left:7px;
+}
+
+#caixa_uploud_evento {
+	width: 156px;
+	height: 28px;
+	margin-left: 745px;
+	margin-top: 5px;
+}
+
+#bt_uploud_evento {
+	width: 156px;
+	height: 28px;
+	color:#FFF;
+	float:left;
+	background-color:#0d88cc;
+	border-color:#0d88cc;
+}
+
+#agenda {
+	width: 804px;
+	height: auto;
+	min-height:430px;
+	margin-top: 20px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(../Design/caixa_agenda.png);
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+	border:1px solid #d2d2d2;
+}
+
+#titulos {
+	width: 800px;
+	height: 30px;
+	margin-top:5px;
+	margin-left:2px;
+}
+
+#t_agenda {
+	width: 800px;
+	height: 30px;
+}
+
+#eventos {
+	width: 804px;
+	height: auto;
+}
+
+#linha {
+	width: 760px;
+	height: 45px;
+	margin-bottom: 10px;
+}
+
+
+.linhas_c {
+	background-image:url(../Design/linha_divide.png);
+	background-repeat: no-repeat;
+	position:absolute;
+	background-size:contain;
+}
+
+#c1 {
+	width: 70px;
+	height: 30px;
+	float:left;
+}
+
+#c2 {
+	width: 80px;
+	height: 45px;
+	float:left;
+}
+
+#c3 {
+	width: 310px;
+	height: 45px;
+	float:left;
+}
+
+#c4 {
+	width: 250px;
+	height: 45px;
+	float:left;
+}
+
+#c5 {
+	width: 20px;
+	height: 29px;
+	background-image:url(../Design/excluir.png);
+	background-repeat:no-repeat;
+	margin-left: 20px;
+	float:left;
+}
+
+#cc1 {
+	width:3px;
+	height:375px;
+	margin-left: 68px;
+}
+
+#cc2 {
+	width:3px;
+	height:375px;
+	margin-left: 145px;
+}
+
+#cc3 {
+	width:3px;
+	height:375px;
+	margin-left: 455px;
+}
+

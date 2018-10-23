@@ -1,0 +1,440 @@
+@charset "utf-8";
+/* CSS Document */
+
+.p_pi {
+	font-size: 17px;
+	font-family:"Century Gothic";
+	font-weight:700;
+	margin-top:20px;
+	margin-left:35px;
+}
+
+.p_EC {
+	margin-left:34px;
+}
+
+.p_E {
+	margin-left:44px;
+}
+
+.p_title {
+	font-size: 14px;
+	font-family:"Century Gothic";
+	margin-top:10px;
+	margin-left:10px;
+}
+
+.p_frase {
+	font-size:11px;
+}
+
+.p_notifica {
+	font-size:11px;
+	display:block;
+	margin-left:10px;
+	float:left;
+}
+
+#principal {
+	width: 995px;
+	height: 610px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#barra {
+	width: 995px;
+	height: 67px;
+	background-image:url(../Design/lines_menor.png);
+	background-repeat:no-repeat;
+}
+
+#conteudo {
+	width: 995px;
+	height: 546px;
+	position:absolute;
+	background-image:url(../Design/bg_linhas_conteudo.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+#coluna1{
+	float:left;
+	margin-top: 20px;
+}
+
+#foto_user_band {
+	width: 195px;
+	height: 130px;
+	background-size:400px;
+	background-repeat:no-repeat;
+}
+
+#procurar_MV {
+	width: 195px;
+	height: 30px;
+	margin-top:12px;
+}
+
+#coluna2 {
+	width: 465px;
+	height: 490px;
+	float:left;
+	margin-left:15px;
+	margin-top: 20px;
+	background-image:url(../Design/linha_roll.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	overflow:auto;
+}
+
+#coluna3 {
+	width: 290px;
+	height: 490px;
+	float:left;
+	margin-left:15px;
+	margin-top: 20px;
+}
+
+#BTS_Box {
+	width: 290px;
+	height: 65px;
+	position:absolute;
+	background-color:#434343;
+}
+
+#bt1 {
+	width: 44px;
+	height: 44px;
+	border:1px solid #979696;
+	float:left;
+	margin-top:8px;
+	background-image:url(../Design/new_notific.png);
+	margin-left:44px;
+}
+
+#bt2 {
+	width: 44px;
+	height: 44px;
+	border:1px solid #979696;
+	float:left;
+	margin-left:6px;
+	margin-top:8px;
+	background-image:url(../Design/invite_produtor.png);
+	background-repeat:no-repeat;
+}
+
+#bt3 {
+	width: 44px;
+	height: 44px;
+	border:1px solid #979696;
+	float:left;
+	margin-left:6px;
+	margin-top:8px;
+	background-image:url(../Design/search_members.png);
+	background-repeat:no-repeat;
+}
+
+#bt4 {
+	width: 44px;
+	height: 44px;
+	border:1px solid #979696;
+	float:left;
+	margin-left:6px;
+	margin-top:8px;
+	background-image:url(../Design/editar_config.png);
+	background-repeat:no-repeat;
+}
+
+#barrinha_azul {
+	width: 290px;
+	height: 6px;
+	background-color:#118dd2;
+	margin-top: 59px;
+	border-radius: 6px;
+}
+
+#troca1 {
+	width: 290px;
+	height: 200px;
+	overflow:auto;
+	background-image:url(../Design/troca.png);
+	top: 85px;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	position:absolute;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	display:none;
+}
+
+#troca2 {
+	width: 290px;
+	height: 200px;
+	overflow:auto;
+	background-image:url(../Design/troca.png);
+	top: 85px;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	display:none;
+	position:absolute;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#troca3 {
+	width: 290px;
+	height: 230px;
+	background-image:url(../Design/troca.png);
+	top: 85px;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	display:none;
+	position:absolute;
+}
+
+#troca4 {
+	width: 290px;
+	height: 200px;
+	overflow:auto;
+	background-image:url(../Design/troca.png);
+	top: 85px;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	display:none;
+	position:absolute;
+}
+
+#numbers {
+	width:86px;
+	height:14px;
+	background-image:url(../Design/numbers_band.png);
+	position:absolute;
+	margin-left:59px;
+	margin-top:-6px;
+}
+
+.numb {
+	width:30px;
+	height:14px;
+	float:left;
+	text-align:center;
+}
+
+#number1 {
+	margin-right:22px;
+	margin-left:4px;
+}
+
+.size_number {
+	font-size:11px;
+	color:#FFF;
+}
+
+#icone_video {
+	width: 22px;
+	height: 23px;
+	background-image:url(../Design/icone_video.png);
+	background-repeat:no-repeat;
+	float:left;
+}
+
+#linha_video {
+	width:195px;
+	height: 23px;
+}
+
+#input_video {
+	float:left;
+}
+
+#search_video {
+	width: 145px;
+	height: 17px;
+	margin-top:-1px;
+	position:absolute;
+}
+
+#btn_video {
+	width:23px;
+	height:23px;
+	background-image:url(../Design/go_search.png);
+	background-size:contain;
+	position:absolute;
+	margin-left:150px;
+	margin-top:-1px;
+}
+
+#form_search {
+	margin-top:20px;
+	text-align:end;
+	width:300px;
+	height:150px;
+	margin-left:-12px;
+}
+
+select {
+ 	width: 190px;
+	font-size: 12px;
+}
+
+#btn_procurar {
+	width:80px;
+	margin-left:110px;
+	background-image:url(../Design/back_enviar_lyric.png);
+	color:#FFF;
+	position:absolute;
+}
+
+#notifica {
+	width:290px;
+	height:80px;
+	background-image:url(../Design/linha_caixinha.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+}
+
+#notifica_geral {
+	width:290px;
+	height:25px;
+	background-image:url(../Design/linha_caixinha.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	margin-bottom:5px;
+}
+
+#notifica_produtor {
+	width:290px;
+	height:80px;
+	background-image:url(../Design/linha_caixinha.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+}
+
+#c1 {
+	width: 40px;
+	height: 40px;
+	background-image:url(../ImagensTeste/miniatura.png);
+	border:1px solid #666;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+	background-size:40px;
+	background-repeat:no-repeat;
+}
+#c111 {
+	width: 40px;
+	height: 40px;
+	border:1px solid #666;
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+	background-size:60px;
+	background-repeat:no-repeat;
+}
+
+#c2 {
+	width: 180px;
+	height: 60px;
+	float:left;
+	margin-top:10px;
+	margin-left:8px;
+}
+
+#c3 {
+	width: 16px;
+	height: 10px;
+	background-image:url(../Design/mens_prod.png);
+	float:left;
+	margin-left:4px;
+	margin-top:35px;
+}
+
+#c4 {
+	width: 8px;
+	height: 8px;
+	background-image:url(../Design/delete.png);
+	float:left;
+	margin-top:15px;
+}
+
+#cc4 {
+	width: 8px;
+	height: 8px;
+	background-image:url(../Design/delete.png);
+	float:left;
+	margin-left: 20px;
+}
+
+#nome_produtora {
+	width: 180px;
+	height:18px;
+	font-weight:600;
+}
+
+#corpo_mensagem {
+	width: 180px;
+	height:20px;
+	overflow:hidden;
+}
+
+#Aceitar {
+	margin-left:40px;
+	float:left;
+	background-image:url(../Design/back_enviar_lyric.png);
+	color:#FFF;
+}
+
+
+#carregando{
+	
+	
+	width:150px;
+	height:150px;
+	margin-top:-200px;
+	margin-left:-200px;
+	position:relative;
+	top:300px;
+	left:330px;
+	
+	
+}
+#carregando2{
+	
+	
+	width:150px;
+	height:150px;
+	margin-top:-200px;
+	margin-left:-200px;
+	position:relative;
+	top:300px;
+	left:330px;
+	
+	
+}
+#carregando3{
+	
+	
+	width:150px;
+	height:150px;
+	margin-top:-200px;
+	margin-left:-200px;
+	position:relative;
+	top:300px;
+	left:330px;
+	
+	
+}
+#carregando4{
+	
+	
+	width:150px;
+	height:150px;
+	margin-top:-200px;
+	margin-left:-200px;
+	position:relative;
+	top:300px;
+	left:330px;
+	
+	
+}

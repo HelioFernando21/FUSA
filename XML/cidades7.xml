@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CIDADES>
+<CIDADE>
+		<ID>802</ID>
+		<NOME>BRASILIA</NOME>
+		<IDESTADO>7</IDESTADO>
+		<IDREGIAO></IDREGIAO>
+		<DDD>61</DDD>
+	</CIDADE>
+</CIDADES>

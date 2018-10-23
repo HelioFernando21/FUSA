@@ -1,0 +1,263 @@
+@charset "utf-8";
+/* CSS Document */
+
+.nome_user {
+	color:#0d88cc;
+	margin-top:5px;
+}
+
+.p_amigos {
+	margin-top:8px;
+	font-size: 16px;
+	position:absolute;
+	cursor:pointer;
+}
+
+.p_link_ref {
+	font-family:"Century Gothic";
+	font-size:16px;
+	margin-top: 3px;
+	margin-left: 30px;
+	color:#FFF;
+}
+
+.p_link {
+	font-family:"Century Gothic";
+	font-size:16px;
+	margin-top: 3px;
+	margin-left: 55px;
+	color:#FFF;
+}
+
+.p_link_esq {
+	font-family:"Century Gothic";
+	font-size:16px;
+	margin-top: 3px;
+	margin-left: 50px;
+	color:#FFF;
+}
+
+.p_link_dir {
+	font-family:"Century Gothic";
+	font-size:16px;
+	margin-top: 3px;
+	margin-left: 42px;
+	color:#FFF;
+}
+
+#principal {
+	width: 995px;
+	height: 630px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#barra {
+	width: 995px;
+	height: 67px;
+	background-image:url(../Design/lines_menor.png);
+	background-repeat:no-repeat;
+}
+
+#conteudo {
+	width: 995px;
+	height: 560px;
+	position:absolute;
+}
+
+#coluna1{
+	float:left;
+	margin-top: 20px;
+}
+
+#coluna2 {
+	width: 797px;
+	height: auto;
+	float:left;
+	margin-left: 10px;
+	margin-top: 20px;
+	background-image:url(../Design/bg_linhas_conteudo.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+#menu {
+	width: 797px;
+	height: 30px;
+	position:absolute;
+}
+
+#bt1 {
+	width: 153px;
+	height: 30px;
+	float:left;
+	background-image:url(../Design/btn_out.png);
+}
+
+#bt2 {
+	width: 153px;
+	height: 30px;
+	float:left;
+	background-image:url(../Design/btn_out.png);
+	margin-left:7px;
+}
+
+#bt3 {
+	width: 153px;
+	height: 30px;
+	float:left;
+	background-image:url(../Design/btn_on.png);
+	margin-left:7px;
+}
+
+#bt4 {
+	width: 153px;
+	height: 30px;
+	float:left;
+	background-image:url(../Design/btn_out.png);
+	margin-left:7px;
+}
+
+#bt5 {
+	width: 153px;
+	height: 30px;
+	float:left;
+	background-image:url(../Design/btn_out.png);
+	margin-left:7px;
+}
+
+#segura_conteudo {
+	width: 797px;
+	height: 500px;
+	margin-top: 35px;
+}
+
+#write_lyric {
+	width: 797px;
+	height: 98px;
+	position:absolute;
+}
+
+#escreva_lyric {
+	width: 788px;
+	height: 60px;
+}
+
+#EnviarLYRIC {
+	width: 97px;
+	height: 28px;
+	background-image:url(../Design/back_enviar_lyric.png);
+	margin-left: 701px;
+	margin-top: 4px;
+	color:#FFF;
+}
+
+#lyrics {
+	width: 797px;
+	height: 395px;
+	background-image:url(../Design/linha_roll.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	overflow:auto;
+	margin-top: 105px;
+	position:absolute;
+}
+
+#Lyric_1 {
+	width: 760px;
+	margin-bottom: 15px;
+}
+
+#bt_excluir_lyric {
+	width: 20px;
+	height: 29px;
+	background-image:url(../Design/excluir.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	margin-left: 729px;
+	margin-top: 20px;
+}
+
+#caixa2_lyric_1 {
+	width: 720px;
+	background-color:#999;
+	border:1px solid #999;
+ 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1f1f1', endColorstr='#e6e6e6'); /* IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#f1f1f1), to(#e6e6e6)); /* webkit browsers */
+	background: -moz-linear-gradient(top,  #f1f1f1,  #e6e6e6); /* Firefox 3.6+ */
+	
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+}
+
+#Foto_lyric_1 {
+	width: 40px;
+	height: 40px;
+	background-color:#CCC;
+	position:absolute;
+	margin-left: 10px;
+	margin-top: 10px;
+	border:1px solid #666;
+	
+	background-repeat:no-repeat;
+}
+
+#Corpo_lyric_1 {
+	margin-left: 70px;
+	width: 630px;
+	padding-top: 3px;	
+}
+
+#info_de_envio {
+	width: 170px;
+	height: 20px;
+	margin-left: 470px;
+}
+
+#Ponta_lyric_1 {
+	width: 720px;
+	height: 41px;
+	background-image:url(../Design/ponta.png);
+	background-repeat:no-repeat;
+	margin-top:-1px;
+}
+
+#mostrar_amigos {
+	position:absolute;
+	width:300px;
+	height:300px;
+	margin-left:-150px;
+	margin-top:-150px;
+	top:300px;
+	left:600px;
+	background-color:#F00;
+	z-index:10;
+	display:none;
+}
+
+#pretona {
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	background-color:#000;
+	opacity:0.7;
+	position:absolute;
+	z-index:1;
+	display:none;
+}
+
+#carregando{
+	
+	
+	width:30px;
+	height:30px;
+	position:relative;
+	top:150px;
+	left:349px;
+	
+	
+}
+

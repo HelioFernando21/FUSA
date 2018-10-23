@@ -1,0 +1,350 @@
+@charset "utf-8";
+/* CSS Document */
+
+#logar {
+	width: 410px;
+	height:40px;
+}
+
+.p_amigos {
+	margin-left: 20px;
+	margin-top: 12px;
+	font-size: 16px;
+}
+
+.p_link_ref {
+	font-family:"Century Gothic";
+	font-size:16px;
+	margin-top: 3px;
+	margin-left: 30px;
+	color:#FFF;
+}
+
+.nome_user {
+	color:#0d88cc;
+}
+
+.p_descri {
+	color:#FFF;
+}
+
+.p_name_big {
+	font-size: 22px;
+	font-family:"Century Gothic";
+	font-weight:600;
+	color:#FFF;
+}
+
+.p_link {
+	font-family:"Century Gothic";
+	font-size:16px;
+	margin-top: 3px;
+	margin-left: 55px;
+	color:#FFF;
+}
+
+.p_link_esq {
+	font-family:"Century Gothic";
+	font-size:16px;
+	margin-top: 3px;
+	margin-left: 50px;
+	color:#FFF;
+}
+
+.p_link_dir {
+	font-family:"Century Gothic";
+	font-size:16px;
+	margin-top: 3px;
+	margin-left: 42px;
+	color:#FFF;
+}
+
+.p_name_big {
+	font-size: 22px;
+	font-family:"Century Gothic";
+	font-weight:600;
+}
+
+.p_nums{
+	font-size: 18px;
+	margin-top:3px;
+	color:#FFF;
+}
+
+#principal {
+	width: 995px;
+	height: auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#barra {
+	width: 995px;
+	height: 67px;
+	background-image:url(../Design/lines_menor.png);
+	background-repeat:no-repeat;
+}
+
+#conteudo {
+	width: 995px;
+	height: 570px;
+	position:absolute;
+	background-image:url(../Design/bg_linhas_conteudo.png);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+#banner {
+	width: 995px;
+	height: 265px;
+	margin-top: 15px;
+	overflow:hidden;
+}
+
+#menu {
+	width: 800px;
+	height: 30px;
+	position:relative;
+	margin-left: 100px;
+	margin-top:-30px;
+}
+
+#bt1 {
+	width: 154px;
+	height: 30px;
+	float:left;
+	background-image:url(../Design/btn_on.png);
+}
+
+#bt2 {
+	width: 154px;
+	height: 30px;
+	float:left;
+	background-image:url(../Design/btn_out.png);
+	margin-left:7px;
+}
+
+#bt3 {
+	width: 154px;
+	height: 30px;
+	float:left;
+	background-image:url(../Design/btn_out.png);
+	margin-left:7px;
+}
+
+#bt4 {
+	width: 154px;
+	height: 30px;
+	float:left;
+	background-image:url(../Design/btn_out.png);
+	margin-left:7px;
+}
+
+#bt5 {
+	width: 156px;
+	height: 30px;
+	float:left;
+	background-image:url(../Design/btn_out.png);
+	margin-left:7px;
+}
+
+#segura_conteudo {
+	width: 640px;
+	height: auto;
+	margin-top: 15px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#title_video {
+	width: 640px;
+	height: 30px;
+}
+
+#video {
+	width: 640px;
+	height:390px;
+	background-color:#333;
+}
+
+#especificacoes {
+	width: 640px;
+	height: 30px;
+	margin-top:3px;
+}
+
+#gostei {
+	width:30px;
+	height:30px;
+	background-color:#9CF;
+	float:left;
+}
+
+#gostei2 {
+	width:30px;
+	height:30px;
+	background-image:url(../Design/rockthis.png);
+	float:left;
+}
+
+#nums_gostei {
+	width:140px;
+	height:30px;
+	float:left;
+	margin-left:4px;
+}
+
+#editar_video {
+	width:18px;
+	height:30px;
+	background-image:url(../Design/editar.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin-left:116px;
+}
+
+#excluir_video {
+	width:18px;
+	height:30px;
+	background-image:url(../Design/excluir.png);
+	background-repeat:no-repeat;
+	float:left;
+	margin-left:5px;
+}
+
+#nums_visualizacoes {
+	width:140px;
+	height:30px;
+	float:left;
+	margin-left:169px;
+	text-align:end;
+}
+
+#descricao_video {
+	width: 640px;
+	height: auto;
+	margin-top:8px;
+}
+
+#descri {
+	width: 640px;
+	height:42px;
+	overflow:hidden;
+}
+
+#barrinha {
+	width: 640px;
+	height:24px;
+	background-image:url(../Design/vermais.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	margin-top:4px;
+}
+
+#barrinha2 {
+	width: 640px;
+	height:24px;
+	background-image:url(../Design/ocultar.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	margin-top:4px;
+	display:none;
+}
+
+#dad {
+	width: 640px;
+	height: 140px;
+	margin-top: 15px;
+}
+
+#comentarios {
+	width: 640px;
+	height: auto;
+	overflow:hidden;
+	margin-top:10px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1f1f1', endColorstr='#e6e6e6'); /* IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#f1f1f1), to(#e6e6e6)); /* webkit browsers */
+	background: -moz-linear-gradient(top,  #f1f1f1,  #e6e6e6); /* Firefox 3.6+ */
+	
+	overflow:hidden;
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+}
+
+#comentario {
+	width: 640px;
+	height: auto;
+	margin-right:50px;
+	float:left;
+	margin-bottom:15px;
+	background-image:url(../Design/testing.png);
+	background-position:bottom;
+	background-repeat:no-repeat;
+}
+
+#c1 {
+	width:28px;
+	height:28px;
+
+	float:left;
+	margin-top:8px;
+	margin-left:8px;
+
+	background-repeat:no-repeat;
+}
+
+#c11 {
+	width:28px;
+	height:28px;
+
+	float:left;
+	margin-top:8px;
+	margin-left:8px;
+
+	background-repeat:no-repeat;
+}
+
+#c2 {
+	width: 540px;
+	height:auto;
+	margin-left:10px;
+	float:left;
+	margin-top:8px;
+}
+
+#c3 {
+	width:8px;
+	height:8px;
+	background-image:url(../Design/delete.png);
+	float:left;
+	margin-left:5px;
+	margin-top:20px;
+}
+
+#comentar_video {
+	width: 640px;
+	height: 48px;
+	background-color:#8bacbe;
+	border-top-right-radius:15px;	
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	-moz-border-radius:15px; /* Firefox 3.6 and earlier */
+}
+
+#comentar {
+	width: 520px;
+	height:22px;
+	margin-top:8px;
+	margin-left:10px;
+}
+
+#bt_enviar {
+	background-color:#0d88cc;
+	color:#FFF;
+	position:relative;
+	display:block;
+	margin-top:-30px;
+	margin-left:575px;
+}
